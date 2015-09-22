@@ -1,2 +1,2 @@
-# hexo-theme
+# hexo
 hexo 主题
