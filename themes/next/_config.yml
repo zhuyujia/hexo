@@ -29,7 +29,7 @@ icon_font: default
 highlight_theme: night
 
 # MathJax Support
-mathjax: true
+mathjax:
 
 # Schemes
 scheme: Mist
