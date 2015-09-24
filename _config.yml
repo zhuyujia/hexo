@@ -86,6 +86,9 @@ avatar: /images/avatar.jpg
 # 多说评论
 duoshuo_shortname: zhuyujia
 
+# 多说分享
+duoshuo_share: true
+
 # 百度统计
 baidu_analytics: da64726cc9800fc0cd27a0284cd4c1cb
 
