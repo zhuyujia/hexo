@@ -2,8 +2,8 @@
 menu:
   home: /
   archives: /archives
-  categories: /categories
-  tags: /tags
+  #categories: /categories
+  #tags: /tags
   about: /about.html
   #commonweal: /404.html
 
@@ -11,7 +11,7 @@ menu:
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo,next"
+keywords: "zhuyujia,朱羽佳,github"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
