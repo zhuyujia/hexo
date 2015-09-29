@@ -128,3 +128,22 @@ tag_generator:
 
 # Swiftype Search Key
 swiftype_key: 4PN81G1PQWyh-hxKyG4X
+
+# 七牛同步
+qiniu:
+  offline: false
+  sync: true
+  bucket: zhuyujia
+  access_key: WjyfBcdoLFiWtPvepfLsdg8IhgWzULLGfh9vINzH
+  secret_key: pLLLARfC940Bn8qapKQrHjlESoHWx6BASN-Dz77z
+  dirPrefix: static
+  urlPrefix: http://7xn4vv.com1.z0.glb.clouddn.com/static
+  local_dir: qiniu
+  update_exist: true
+  image: 
+    folder: images
+    extend: 
+  js:
+    folder: js
+  css:
+    folder: css

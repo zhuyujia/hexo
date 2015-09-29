@@ -131,106 +131,11 @@ function popup(content, opts, callback){
 		}
 	});
 }
-function popupCaptcha(curIndex){
-	var accountId = $('.e_accountId').val();
-	var zoneGroup = $('.e_zoneGroup').val();
-	var roleId = $('.e_roleId').val();
-	var roleName = $('.e_roleName').val();
-	popup(MPT.getTmpl('popup_captcha', {'accountId': accountId, 'zoneGroup': zoneGroup, 'roleId': roleId, 'roleName': roleName, 'actId': MPT.Config['award'][curIndex].actId}), {'width': 300}, function(){
-		var $form = $('.e_form');
-		var $submit = $('.e_submit');
-		var $captchaPic = $('.e_captcha_pic');
-		var $captchaTip = $('.e_captcha_tip');
-		var isValid = 1;
-		var captchaVal = ''
-		$captchaPic.click(function(){
-			$captchaPic.attr('src', MPT.Config['url']['captcha'] + '&r=' + Math.random());
-		});
-		$form.Validform({
-			tiptype: function(msg, o){
-				o.obj.siblings('.Validform_checktip').text(msg);
-			},
-			datatype: {
-				'captcha': function(gets){
-					var regxp = MPT.Config['regular']['captcha'];
-					if(regxp.test(gets)){
-						if(captchaVal != gets){
-							captchaVal = gets;
-							isValid = 1;
-							return true;
-						}else{
-							if(isValid){
-								return true;
-							}else{
-								return $captchaTip.text();
-							}
-						}
-					}else{
-						return false;
-					}
-				}
-			},
-			beforeSubmit: function(){
-				$submit.prop('disabled', true);
-			},
-			callback: function(){
-				$.ajax({
-					type: 'post',
-					url: MPT.Config['req']['doAward'],
-					dataType: 'json',
-					data: $form.serialize(),
-					beforeSend: function(){
-						$submit.val('抽奖中');
-					},
-					error: function(xhr, textStatus, errorThrown){
-						popupAlert('抽奖出现异常：' + errorThrown);
-					},
-					complete: function(){
-						$submit.removeAttr('disabled').val('抽奖');
-					},
-					success: function(result){
-						switch(result.rc){
-							case MPT.Config['result']['ok']:
-								$.unblockUI({
-									onUnblock: function(){
-										$('.e_award_main').html(MPT.getTmpl('award_result', {'rewardName': result.profile.rewardInfos[0].rewardname}));
-									}
-								});
-								break;
-							case MPT.Config['result']['captchaError'][0]:
-								$captchaTip.text(MPT.Config['result']['captchaError'][1]);
-								isValid = 0;
-								break;
-							case MPT.Config['result']['captchaExpire'][0]:
-								$captchaTip.text(MPT.Config['result']['captchaExpire'][1]);
-								isValid = 0;
-								break;
-							case MPT.Config['result']['notToTime'][0]:
-								popupAlert(MPT.Config['result']['notToTime'][1]);
-								break;
-							case MPT.Config['result']['notOnline'][0]:
-								popupAlert(MPT.Config['result']['notOnline'][1]);
-								break;
-							case MPT.Config['result']['onlyOnce'][0]:
-								popupAlert(MPT.Config['result']['onlyOnce'][1]);
-								break;
-							case MPT.Config['result']['notWinning'][0]:
-								popupAlert(MPT.Config['result']['notWinning'][1]);
-								break;
-							case MPT.Config['result']['awardFailed'][0]:
-								popupAlert(MPT.Config['result']['awardFailed'][1]);
-								break;
-							default:
-								popupAlert('抽奖失败，失败原因：系统内部异常！');
-						}
-					}
-				});
-				return false;
-			}
-		});
-	});
-}
 function popupAlert(msg, callback){
 	popup(MPT.getTmpl('popup_alert', {'msg': msg}), {'width': 340}, callback);
 }
 ```
+
+### 测试图片
+
+{% qnimg 20150929/1.png %}

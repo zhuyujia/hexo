@@ -1,13 +1,5 @@
 // Custom styles.
 
-.post-body p img {
-    margin: 0 auto;
-    cursor: pointer;
-    cursor: zoom-out;
-    cursor: -webkit-zoom-in;
-    display: block!important;
-}
-
 .post-body p .pic-title {
 	margin: 0 auto;
     text-align: center;
@@ -26,10 +18,17 @@
     line-height: 1.7;
 }
 
-.posts-expand .post-body .fancybox img {
-	margin: 0 auto;
-}
-
 .site-description {
     color: $grey-dark;
+}
+
+.post-body .fancybox {
+    border-bottom: none;
+}
+
+.post-body .fancybox img {
+    display: inline;
+    max-width: $content-desktop;
+    padding: 0;
+    border: none;
 }
