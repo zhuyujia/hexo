@@ -138,4 +138,4 @@ function popupAlert(msg, callback){
 
 ### 测试图片
 
-{% qnimg 20150929/1.png %}
+<p>{% qnimg 20150929/1.png %}</p>
