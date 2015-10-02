@@ -1,1 +1,1 @@
-<script type="text/javascript" src="{{ url_for(theme.js) }}/bootstrap.scrollspy.js?v={{ theme.version }}" id="bootstrap.scrollspy.custom"></script>
+<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/bootstrap.scrollspy.js" id="bootstrap.scrollspy.custom"></script>

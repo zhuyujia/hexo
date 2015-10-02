@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
   var isSidebarVisible;
   var DURATION = 300;
   var SIDEBAR_WIDTH = 320;
@@ -23,5 +23,4 @@ $(document).ready(function () {
       }, DURATION);
     });
   }
-
 });

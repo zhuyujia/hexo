@@ -23,14 +23,10 @@
 {% endif %}
 
 {% if theme.fancybox %}
-  <link rel="stylesheet" type="text/css" href="{{ url_for(theme.vendors) }}/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+  <link rel="stylesheet" href="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.css"/>
 {% endif %}
 
-{% if config.language !== 'zh-Hans' and theme.use_font_lato %}
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-{% endif %}
-
-<link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}"/>
+<link rel="stylesheet" href="http://7xn4vv.com1.z0.glb.clouddn.com/static/css/main.css"/>
 
 {% if config.description %}
     <meta name="description" content="{{ config.description }}" />
@@ -59,7 +55,7 @@
   fb_app_id: theme.fb_app_id}) }}
 
 {# HEXO CONFIGURATIONS #}
-<script type="text/javascript" id="hexo.configuration">
+<script id="hexo.configuration">
   var CONFIG = {
     scheme: '{{ theme.scheme }}',
     sidebar: '{{ theme.sidebar }}'

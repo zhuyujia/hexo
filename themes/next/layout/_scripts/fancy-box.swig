@@ -1,4 +1,4 @@
 {% if theme.fancybox %}
-  <script type="text/javascript" src="{{ url_for(theme.vendors) }}/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="{{ url_for(theme.js) }}/fancy-box.js?v={{ theme.version }}"></script>
+  <script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/fancy-box.js"></script>
 {% endif %}

@@ -1,8 +1,8 @@
 
 {% include '../bootstrap.scrollspy.swig' %}
 
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
+<script id="sidebar.toc.highlight">
+  $(function () {
     var tocSelector = '.post-toc';
     var $tocSelector = $(tocSelector);
     var activeCurrentSelector = '.active-current';
@@ -92,8 +92,8 @@
   });
 </script>
 
-<script type="text/javascript" id="sidebar.nav">
-  $(document).ready(function () {
+<script id="sidebar.nav">
+  $(function () {
     var html = $('html');
     var TAB_ANIMATE_DURATION = 200;
     var hasVelocity = $.isFunction(html.velocity);

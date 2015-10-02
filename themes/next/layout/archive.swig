@@ -55,7 +55,7 @@
 
 {% block script_extra_before %}
   {% if theme.use_motion %}
-    <script type="text/javascript">
+    <script>
       postMotionOptions = {stagger: 100, drag: true};
     </script>
   {% endif %}
@@ -63,7 +63,7 @@
 
 {% block script_extra %}
   {% if theme.use_motion %}
-    <script type="text/javascript" id="motion.page.archive">
+    <script id="motion.page.archive">
       $('.archive-year').velocity('transition.slideLeftIn');
     </script>
   {% endif %}

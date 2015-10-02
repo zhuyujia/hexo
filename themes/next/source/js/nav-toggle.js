@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
   $('.site-nav-toggle button').on('click', function () {
     var $siteNav = $('.site-nav');
     var ON_CLASS_NAME = 'site-nav-on';

@@ -86,7 +86,7 @@ deploy:
 # next theme configuration
 # ==========================
 # 头像
-avatar: /images/avatar.jpg
+avatar: http://7xn4vv.com1.z0.glb.clouddn.com/static/images/avatar.jpg
 
 # 多说评论
 duoshuo_shortname: zhuyujia
@@ -141,7 +141,7 @@ qiniu:
   local_dir: qiniu
   update_exist: true
   image: 
-    folder: images
+    folder: upload
     extend: 
   js:
     folder: js

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
   var body = $('body');
   var isSidebarVisible = false;
   var sidebarToggle = $('.sidebar-toggle');

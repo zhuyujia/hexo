@@ -1,5 +1,4 @@
-$(document).ready(function() {
-
+$(function() {
   $('.content img').each(function () {
     var $image = $(this);
     var $imageWrapLink = $image.parent('a');
@@ -21,5 +20,3 @@ $('.fancybox').fancybox({
     }
   }
 });
-
-
