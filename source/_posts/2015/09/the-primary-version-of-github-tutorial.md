@@ -17,11 +17,11 @@ tags: [github,git,ssh]
 
 点击右上角加号，选择 *New repository*，如图所示：
 
-<p>{% qnimg 20150930/1.png %}</p>
+![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/20150930/1.png)
 
 然后填写仓库名称，选上 *Initialize this repository with a README*，这个意思是在建立仓库时自动生成 *README.md* 文件，最后 *Create repository*，如图所示：
 
-<p>{% qnimg 20150930/2.png %}</p>
+![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/20150930/2.png)
 
 这样仓库算是建立好了。
 
@@ -62,11 +62,11 @@ $ git clone git@github.com:zhuyujia/css.git
 
 需要注意的是：[github](https://github.com/) 提供了 3 种 url 路径（HTTPS，SSH，Subversion），一般如果账号处于登录状态，那么我们可以用 SSH，就像上面的代码，如果没有登录的话，只能用 HTTPS 的 url 了，如图所示：
 
-<p>{% qnimg 20150930/3.png %}</p>
+![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/20150930/3.png)
 
 克隆成功，如下所示：
 
-<p>{% qnimg 20150930/4.png %}</p>
+![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/20150930/4.png)
 
 ## 修改，提交，上传
 
