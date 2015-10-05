@@ -1055,7 +1055,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3effb8;
+  background: #b48717;
 }
 .sidebar-nav {
   margin: 0;
@@ -2216,5 +2216,10 @@ ul li {
 }
 .post-body .fancybox img {
   display: inline;
-  max-width: 700px;
+  max-width: 100%;
+  padding: 0;
+  border: none;
+}
+.page-post-detail .comments {
+  overflow: visible;
 }

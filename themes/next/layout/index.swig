@@ -5,19 +5,18 @@
 {% block title %} {{ config.title }} {% endblock %}
 
 {% block page_class %}
-  {% if is_home() %} page-home {% endif %}
+	{% if is_home() %} page-home {% endif %}
 {% endblock %}
 
 {% block content %}
-  <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </section>
-
-  {% include '_partials/pagination.swig' %}
+	<section id="posts" class="posts-expand">
+	{% for post in page.posts %}
+		{{ post_template.render(post, true) }}
+	{% endfor %}
+	</section>
+	{% include '_partials/pagination.swig' %}
 {% endblock %}
 
 {% block sidebar %}
-  {{ sidebar_template.render(false) }}
+	{{ sidebar_template.render(false) }}
 {% endblock %}

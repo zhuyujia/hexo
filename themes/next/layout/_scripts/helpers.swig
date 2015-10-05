@@ -1,1 +1,0 @@
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/helpers.js"></script>

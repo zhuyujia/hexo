@@ -90,12 +90,14 @@ avatar: http://7xn4vv.com1.z0.glb.clouddn.com/static/images/avatar.jpg
 
 # 多说评论
 duoshuo_shortname: zhuyujia
+duoshuo_info:
+  ua_enable: true
+  admin_enable: true
+  admin_nickname: 朱羽佳
+  user_id: 8593083
 
 # 多说分享
 duoshuo_share: true
-
-# 百度统计
-baidu_analytics: da64726cc9800fc0cd27a0284cd4c1cb
 
 # 建立站点时间
 since: 2015
