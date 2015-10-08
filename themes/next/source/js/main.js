@@ -1,6 +1,6 @@
 var duoshuoQuery = {short_name: 'zhuyujia'};
 var duoshuo_user_ID = 8593083;
-var duoshuo_admin_nickname = '朱羽佳';
+var duoshuo_admin_nickname = '';
 function hasMobileUA(){
 	var nav = window.navigator;
 	var ua = nav.userAgent;
