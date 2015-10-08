@@ -1,4 +1,4 @@
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/bootstrap.scrollspy.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/bootstrap.scrollspy.min.js"></script>
 <script id="sidebar.toc.highlight">
 $(function(){
 	var tocSelector = '.post-toc';

@@ -48,8 +48,8 @@
 	fb_admins: theme.fb_admins,
 	fb_app_id: theme.fb_app_id}) }}
 
-	<link rel="stylesheet" href="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.css"/>
-	<link rel="stylesheet" href="http://7xn4vv.com1.z0.glb.clouddn.com/static/css/main.css"/>{# HEXO CONFIGURATIONS #}
+	<link rel="stylesheet" href="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.css"/>
+	<link rel="stylesheet" href="//7xn4vv.com1.z0.glb.clouddn.com/static/css/main.css"/>
 	<script>
 	var CONFIG = {
 		scheme: '{{ theme.scheme }}',

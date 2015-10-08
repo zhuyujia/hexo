@@ -43,23 +43,23 @@
 	</div>
 </body>
 </html>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/jquery.min.js"></script>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/fastclick.min.js"></script>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/lazyload.min.js"></script>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.pack.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/jquery.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/fastclick.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/lazyload.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/fancybox/jquery.fancybox.pack.js"></script>
 {% block script_extra_before %}{% endblock %}
 {% if theme.use_motion %}
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/velocity/velocity.min.js"></script>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/lib/velocity/velocity.ui.min.js"></script>
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/motion_global.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/velocity/velocity.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/lib/velocity/velocity.ui.min.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/js/motion_global.js"></script>
 {% else %}
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/motion_fallback.js"></script>
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/js/motion_fallback.js"></script>
 {% endif %}
 {% if theme.baidushare and page.title %}
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"3","bdPos":"left","bdTop":"250"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 {% endif %}
 {% include '_scripts/mathjax.swig' %}
 {% block script_extra %}{% endblock %}
+<script src="//7xn4vv.com1.z0.glb.clouddn.com/static/js/main.js"></script>
 {% block comment_system %}{% endblock %}
-<script src="http://7xn4vv.com1.z0.glb.clouddn.com/static/js/main.js"></script>
 <script src="//hm.baidu.com/hm.js?da64726cc9800fc0cd27a0284cd4c1cb"></script>

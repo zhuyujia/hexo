@@ -86,15 +86,10 @@ deploy:
 # next theme configuration
 # ==========================
 # 头像
-avatar: http://7xn4vv.com1.z0.glb.clouddn.com/static/images/avatar.jpg
+avatar: //7xn4vv.com1.z0.glb.clouddn.com/static/images/avatar.jpg
 
 # 多说评论
 duoshuo_shortname: zhuyujia
-duoshuo_info:
-  ua_enable: true
-  admin_enable: true
-  admin_nickname: 朱羽佳
-  user_id: 8593083
 
 # 多说分享
 duoshuo_share: true

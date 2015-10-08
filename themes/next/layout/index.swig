@@ -20,3 +20,8 @@
 {% block sidebar %}
 	{{ sidebar_template.render(false) }}
 {% endblock %}
+
+{% block comment_system %}
+	{% include '_scripts/comments/duoshuo.swig' %}
+	{% include '_scripts/comments/disqus.swig' %}
+{% endblock %}

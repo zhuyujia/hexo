@@ -1,3 +1,6 @@
+var duoshuoQuery = {short_name: 'zhuyujia'};
+var duoshuo_user_ID = 8593083;
+var duoshuo_admin_nickname = '朱羽佳';
 function hasMobileUA(){
 	var nav = window.navigator;
 	var ua = nav.userAgent;
@@ -33,7 +36,7 @@ function isMist(){
 
 $(function(){
 	$('#posts').find('img').lazyload({
-		placeholder: 'http://7xn4vv.com1.z0.glb.clouddn.com/static/images/loading.gif',
+		placeholder: '//7xn4vv.com1.z0.glb.clouddn.com/static/images/loading.gif',
 		effect: 'fadeIn'
 	});
 
