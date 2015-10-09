@@ -153,7 +153,7 @@ html5 规范中规定了 html 标签是可以省略的。但从可读性来说�
 
 异步加载脚本可缓解这种性能影响。如果只需兼容 ie10+，可将 html5 的 async 属性加至脚本中，它可防止阻塞 DOM 的解析，甚至你可以将脚本引用写在 `head` 里也没有影响。
 
-如需兼容老旧的浏览器，实践表明可使用用来动态注入脚本的脚本加载器。你可以考虑 [yepnope](http://yepnopejs.com/) 或 [labjs](http://labjs.com/)。注入脚本的一个问题是：[一直要等到 CSS 对象文档已就绪，它们才开始加载](https://www.igvita.com/2014/05/20/script-injected-async-scripts-considered-harmful/)（短暂地在 css 加载完毕之后），这就对需要及时触发的 js 造成了一定的延迟，这多多少少也影响了用户体验吧。
+如需兼容老旧的浏览器，实践表明可使用用来动态注入脚本的脚本加载器。你可以考虑 [yepnope](http://yepnopejs.com/) 或 [labjs](http://labjs.com/)。注入脚本的一个问题是：[一直要等到 css 对象文档已就绪，它们才开始加载](https://www.igvita.com/2014/05/20/script-injected-async-scripts-considered-harmful/)（短暂地在 css 加载完毕之后），这就对需要及时触发的 js 造成了一定的延迟，这多多少少也影响了用户体验吧。
 
 终上所述，兼容老旧浏览器(ie9-)时，应该遵循以下最佳实践：
 
