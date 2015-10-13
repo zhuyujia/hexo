@@ -79,7 +79,6 @@ sitemap:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: ""
   repo: 
     github: https://github.com/zhuyujia/zhuyujia.github.io.git,master
     gitcafe: https://gitcafe.com/zhuyujia/zhuyujia.git,gitcafe-pages
