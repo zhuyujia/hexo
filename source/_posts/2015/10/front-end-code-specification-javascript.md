@@ -284,7 +284,7 @@ var a = 10,
 
 ### 使用匈牙利命名法 ###
 
-使用[匈牙利命名法](http://www.wangyingran.com/archives/550.html)来命名变量。
+使用[匈牙利命名法](http://zhuyujia.github.io/2015/10/javascript-variable-naming-rule.html)来命名变量。
 
 ### 总是使用带类型判断的比较判断 ###
 

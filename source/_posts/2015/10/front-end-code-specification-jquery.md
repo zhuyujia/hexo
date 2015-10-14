@@ -45,7 +45,7 @@ $element.css('height',h - 20);
 
 ### 使用匈牙利命名法 ###
 
-使用[匈牙利命名法](http://www.wangyingran.com/archives/550.html)，添加 `$` 前缀，便于识别出 jquery 对象。
+使用[匈牙利命名法](http://zhuyujia.github.io/2015/10/javascript-variable-naming-rule.html)，添加 `$` 前缀，便于识别出 jquery 对象。
 
 ``` javascript
 // 糟糕
