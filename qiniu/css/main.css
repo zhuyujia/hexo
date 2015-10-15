@@ -1055,7 +1055,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b48717;
+  background: #95ff4b;
 }
 .sidebar-nav {
   margin: 0;
@@ -2222,4 +2222,12 @@ ul li {
 }
 .page-post-detail .comments {
   overflow: visible;
+}
+.theme-info::after {
+  content: "|";
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.res-info {
+  display: inline-block;
 }
