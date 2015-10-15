@@ -6,4 +6,3 @@ package.json
 .deploy*/
 node_modules/
 public/
-qiniu/upload/
