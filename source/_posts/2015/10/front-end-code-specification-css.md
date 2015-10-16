@@ -142,24 +142,24 @@ margin: 0;
 这是一个选择器内书写 css 属性顺序的大致轮廓，为了保证更好的可读性。作为最佳实践，我们应该遵循以下顺序：
 
 1. 结构性：
-	1. `display`
-	1. `list-style` | `list-style-image` | `list-style-position` | `list-style-type`
-	1. `position` | `z-index` | `top` | `right` | `bottom` | `left`
-	1. `float` | `clear` | `visibility` | `overflow` | `overflow-x` | `overflow-y`
-	1. `width` | `min-width` | `max-width` | `height` | `min-height` | `max-height`
-	1. `margin` | `margin-top` | `margin-right` | `margin-bottom` | `margin-left`
-	1. `padding` | `padding-top` | `padding-right` | `padding-bottom` | `padding-left`
+	1. 定位：`position` | `z-index` | `top` | `right` | `bottom` | `left` | `clip`
+	2. 布局：`display` | `float` | `clear` | `visibility` | `overflow` | `overflow-x` | `overflow-y`
+	3. 尺寸：`width` | `min-width` | `max-width` | `height` | `min-height` | `max-height`
+	4. 外边距：`margin` | `margin-top` | `margin-right` | `margin-bottom` | `margin-left`
+	5. 内边距：`padding` | `padding-top` | `padding-right` | `padding-bottom` | `padding-left`
 1. 表现性：
-	1. `border` | `border-radius` | `box-shadow` | `border-image`
-	1. `background` | `background-color` | `background-image` | `background-repeat` | `background-attachment` | `background-position` | `background-origin` | `background-clip` | `background-size`
-	1. `color` | `opacity`
-	1. `font` | `font-style` | `font-weight` | `font-size` | `font-family`
-	1. `white-space` | `text-align` | `vertical-align` | `line-height`
-	1. `text-decoration` | `text-shadow`
-	1. `content`
-	1. `columns`
-	1. `flex`
-	1. `transform` | `transition` | `animation`
+	1. 边框：`border` | `border-radius` | `box-shadow` | `border-image`
+	2. 背景：`background` | `background-color` | `background-image` | `background-repeat` | `background-attachment` | `background-position` | `background-origin` | `background-clip` | `background-size`
+	3. 颜色：`color` | `opacity`
+	4. 字体：`font` | `font-style` | `font-variant` | `font-weight` | `font-size` | `font-family`
+	5. 文本：`white-space` | `text-align` | `text-indent` | `vertical-align` | `line-height`
+	6. 文本修饰：`text-decoration` | `text-shadow`
+	7. 列表：`list-style` | `list-style-image` | `list-style-position` | `list-style-type`
+	8. 内容：`content`
+	9. 用户界面：`text-overflow` | `outline` | `cursor` | `zoom` | `box-sizing` | `resize`
+	10. 多列：`columns`
+	11. 伸缩盒：`flex`
+	12. 变换，过渡，动画：`transform` | `transition` | `animation`
 
 ### 声明结束 ###
 
