@@ -65,12 +65,14 @@ tags: [resume,cv]
  - [绿岸网络-魔兽app攻略](https://github.com/zhuyujia/iwgame-wow)
  - [绿岸网络-神庙逃亡2APP攻略](https://github.com/zhuyujia/iwgame-temple-run2)
 
+---
+
 # 专业技能
 
 - 前端开发：Html/Html5/Css/Css3/Sass/Less/hotcss/javascript
 - 前端框架：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
 - 版本管理：Svn/Git
-- 开发工具：Adobe Photoshop/Adobe Flash/SublimeText3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/node/markdownpad2/winscp
+- 开发工具：Photoshop/Flash/ST3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
 
 ---
 
