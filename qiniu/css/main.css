@@ -1055,7 +1055,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #95ff4b;
+  background: #1a5cff;
 }
 .sidebar-nav {
   margin: 0;
@@ -2219,6 +2219,9 @@ ul li {
   max-width: 100%;
   padding: 0;
   border: none;
+}
+.posts-expand h1 {
+  font-size: 28px;
 }
 .page-post-detail .comments {
   overflow: visible;
