@@ -73,8 +73,3 @@ tags: [resume,cv]
 - 前端框架：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
 - 版本管理：Svn/Git
 - 开发工具：Photoshop/Flash/ST3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
-
----
-
-# 致谢
-感谢您花时间阅读我的简历，期待能有机会和您共事。
