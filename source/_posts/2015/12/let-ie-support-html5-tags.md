@@ -10,7 +10,7 @@ tags: [html, html5, html5shiv]
 
 [html5shiv.js](https://github.com/aFarkas/html5shiv) 下载地址[点击这里](https://github.com/aFarkas/html5shiv)。
 
-**如何引用：**
+## 如何使用 ##
 
 ``` html
 <!--[if lt IE 9]>
@@ -18,7 +18,7 @@ tags: [html, html5, html5shiv]
 <![endif]-->
 ```
 
-**完整 demo：**
+## 完整 demo ##
 
 ``` html
 <!DOCTYPE HTML>
@@ -45,3 +45,7 @@ tags: [html, html5, html5shiv]
 </body>
 </html>
 ```
+
+## PS ##
+
+请在 `head` 中 引用 `html5shiv.js`，而不要在 `</body>` 后引用，否则无效。
