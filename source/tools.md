@@ -28,6 +28,8 @@ tags: [工具, 前端工具]
 ## css 预处理 ##
 
 - [SassMeister](http://www.sassmeister.com/)
+- [Sass 界面编译工具 Codekit](http://www.w3cplus.com/preprocessor/sass-gui-tool-codekit.html)
+- [Sass 界面编译工具 Koala](http://www.w3cplus.com/preprocessor/sass-gui-tool-koala.html)
 - [在线 LESS CSS 编译器](http://tool.oschina.net/less)
 
 ## 图片压缩/合并 ##
