@@ -11,7 +11,9 @@ menu:
   about: 关于我
   search: 搜索
   commonweal: 公益404
-  plugin: 整理插件
+  plugins: 插件
+  tools: 工具
+  goals: 目标
 
 
 sidebar:

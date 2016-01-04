@@ -35,17 +35,17 @@ tags: [resume,cv]
 
 ### 绿岸网络-充值中心
 
-[绿岸网络-充值中心](http://pay.iwgame.com/)是为公司游戏提供稳定、安全的充值平台。它能够支持多款游戏的在线充值以及多种不同的充值方式，包括充值金额及充值折扣都是通过 ajax 调用后台配置好的选项进行前端展示及前端 js 的数值计算，整个站点下的所有页面都是由 freemarker 模板制作。该项目使用了以下几个插件：[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/) 、[My97DatePicker 日期控件](http://www.my97.net/)、MPT 框架。
+　　[绿岸网络-充值中心](http://pay.iwgame.com/)是为公司游戏提供稳定、安全的充值平台。它能够支持多款游戏的在线充值以及多种不同的充值方式，包括充值金额及充值折扣都是通过 ajax 调用后台配置好的选项进行前端展示及前端 js 的数值计算，整个站点下的所有页面都是由 freemarker 模板制作。该项目使用了以下几个插件：[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/) 、[My97DatePicker 日期控件](http://www.my97.net/)、MPT 框架。
 
 ### 绿岸网络-账号中心
 
-[绿岸网络-账号中心](http://passport.iwgame.com/sso/loginpage.do)是为公司游戏提供稳定、安全的账号管理平台。该平台提供三大类功能：账号管理、密码管理及安全保护，整个站点下的所有页面都是由 freemarker 模板制作。该项目使用了以下几个插件：[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/) 、passwordStrength 密码强度、MPT 框架。
+　　[绿岸网络-账号中心](http://passport.iwgame.com/sso/loginpage.do)是为公司游戏提供稳定、安全的账号管理平台。该平台提供三大类功能：账号管理、密码管理及安全保护，整个站点下的所有页面都是由 freemarker 模板制作。该项目使用了以下几个插件：[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/) 、passwordStrength 密码强度、MPT 框架。
  
 ## 上海紫坤实业有限公司（2010年7月 ~ 2010年10月）
 
 ### 企业官网制作
 
-纯静态页面，用 dw 编写 html 和 css。
+　　纯静态页面，用 dw 编写 html 和 css。
 
 ---
 
@@ -70,6 +70,6 @@ tags: [resume,cv]
 # 专业技能
 
 - 前端开发：Html/Html5/Css/Css3/Sass/Less/hotcss/javascript
-- 前端框架：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
+- 框架和库：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
 - 版本管理：Svn/Git
-- 开发工具：Photoshop/Flash/ST3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
+- 开发工具：Photoshop/Flash/Sublime Text 3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
