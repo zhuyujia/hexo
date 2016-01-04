@@ -25,7 +25,7 @@ tags: [工具, 前端工具]
 - [在线代码格式化](http://tool.oschina.net/codeformat/html)
 - [Css Beautifier](http://html.fwpolice.com/css/)
 
-## css 预处理 ##
+## Css 预处理 ##
 
 - [SassMeister](http://www.sassmeister.com/)
 - [Sass 界面编译工具 Codekit](http://www.w3cplus.com/preprocessor/sass-gui-tool-codekit.html)
