@@ -1,5 +1,5 @@
 title: 使用 html5 的十大原因
-date: 2016/1/2 14:48:20
+date: 2016-01-02 14:48:20
 categories: html
 keywords: html, html5
 tags: [html, html5]
