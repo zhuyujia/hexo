@@ -284,7 +284,7 @@ var a = 10,
 
 ### 使用匈牙利命名法 ###
 
-使用[匈牙利命名法](http://zhuyujia.github.io/2015/10/javascript-variable-naming-rule.html)来命名变量。
+使用[匈牙利命名法](/2015/10/javascript-variable-naming-rule.html)来命名变量。
 
 ### 总是使用带类型判断的比较判断 ###
 
@@ -727,12 +727,12 @@ return x === 10 ? 'valid' : 'invalid';
 
 ## 系列文章 ##
 
-- [前端编码规范——一般规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-general.html)
-- [前端编码规范——html 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-html.html)
-- [前端编码规范——css 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-css.html)
-- [前端编码规范——javascript 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-javascript.html)
-- [前端编码规范——jquery 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-jquery.html)
-- [前端编码规范——注释规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-comment.html)
+- [前端编码规范——一般规范](/2015/10/front-end-code-specification-general.html)
+- [前端编码规范——html 规范](/2015/10/front-end-code-specification-html.html)
+- [前端编码规范——css 规范](/2015/10/front-end-code-specification-css.html)
+- [前端编码规范——javascript 规范](/2015/10/front-end-code-specification-javascript.html)
+- [前端编码规范——jquery 规范](/2015/10/front-end-code-specification-jquery.html)
+- [前端编码规范——注释规范](/2015/10/front-end-code-specification-comment.html)
 
 ## 注 ##
 

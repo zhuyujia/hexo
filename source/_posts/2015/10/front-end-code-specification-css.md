@@ -208,12 +208,12 @@ css 中文字体可以用 unicode 格式来表示，比如“宋体”可以用 
 
 ## 系列文章 ##
 
-- [前端编码规范——一般规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-general.html)
-- [前端编码规范——html 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-html.html)
-- [前端编码规范——css 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-css.html)
-- [前端编码规范——javascript 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-javascript.html)
-- [前端编码规范——jquery 规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-jquery.html)
-- [前端编码规范——注释规范](http://zhuyujia.github.io/2015/10/front-end-code-specification-comment.html)
+- [前端编码规范——一般规范](/2015/10/front-end-code-specification-general.html)
+- [前端编码规范——html 规范](/2015/10/front-end-code-specification-html.html)
+- [前端编码规范——css 规范](/2015/10/front-end-code-specification-css.html)
+- [前端编码规范——javascript 规范](/2015/10/front-end-code-specification-javascript.html)
+- [前端编码规范——jquery 规范](/2015/10/front-end-code-specification-jquery.html)
+- [前端编码规范——注释规范](/2015/10/front-end-code-specification-comment.html)
 
 ## 注 ##
 
