@@ -1,7 +1,5 @@
 title: 关于我
-date: 2015/12/26 22:28:50
-keywords: 个人简历,简历,resume,cv
-tags: [resume,cv]
+date: 2015-12-26 22:28:50
 ---
 
 # 个人信息

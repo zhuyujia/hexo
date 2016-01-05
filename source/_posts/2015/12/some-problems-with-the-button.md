@@ -1,5 +1,5 @@
 title: button按钮的一些问题
-date: 2015/12/29 20:52:51
+date: 2015-12-29 20:52:51
 categories: html
 description: button 按钮在不设置 type 属性时，在不同的浏览器作用不一样。通过 w3school 可以发现，我们需要始终为 button 按钮规定 type 属性。Internet Explorer（经测试是 ie6 和 ie7）的默认类型是 "button"，而其他浏览器中（包括 W3C 规范）的默认值是 "submit"。
 keywords: button, type, submit

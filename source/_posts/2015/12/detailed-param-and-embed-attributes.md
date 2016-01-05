@@ -1,5 +1,5 @@
 title: param 及 embed 标签相关属性详解
-date: 2015/12/28 21:27:57
+date: 2015-12-28 21:27:57
 categories: html
 keywords: html, object, param, embed, flash
 tags: [html, object, param, embed, flash]

@@ -1,5 +1,5 @@
 title: edm 邮件制作指南
-date: 2015/12/25 23:05:21
+date: 2015-12-25 23:05:21
 categories: html
 keywords: html, css, table, edm, 邮件, edm模板, 邮件制作, 邮件模板, edm制作
 tags: [html, css, table, edm, 邮件, edm模板, 邮件制作, 邮件模板, edm制作]
