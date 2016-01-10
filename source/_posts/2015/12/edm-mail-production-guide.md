@@ -1,12 +1,12 @@
 title: edm 邮件制作指南
 date: 2015-12-25 23:05:21
 categories: html
+description: 专业的 edm 邮件发送，是有严格的制作要求的，本指南从格式编码、文字、图片及链接四个方面给出指引，请逐条按照本指南制作您的 edm 邮件模板。
 keywords: html, css, table, edm, 邮件, edm模板, 邮件制作, 邮件模板, edm制作
 tags: [html, css, table, edm, 邮件, edm模板, 邮件制作, 邮件模板, edm制作]
 ---
 
 专业的 edm 邮件发送，是有严格的制作要求的，本指南从格式编码、文字、图片及链接四个方面给出指引，请逐条按照本指南制作您的 edm 邮件模板。
-<!--more-->
 
 ## 格式编码
 

@@ -2,8 +2,8 @@ title: 前端编码规范——jquery 规范
 date: 2015-10-12 16:02:06
 categories: 规范
 keywords: 前端,规范,前端规范,html,css,javascript,jquery,注释
-tags: [前端规范,规范,jquery]
 description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript 和 jquery 这几个部分。本文为 jquery 规范。
+tags: [前端规范,规范,jquery]
 ---
 
 ## 前言 ##
@@ -325,6 +325,4 @@ CDN 能保证选择离用户最近的缓存并迅速响应。（推荐 jquery �
 - [前端编码规范——jquery 规范](/2015/10/front-end-code-specification-jquery.html)
 - [前端编码规范——注释规范](/2015/10/front-end-code-specification-comment.html)
 
-## 注 ##
-
-本文转载自：[http://www.css88.com/archives/5240](http://www.css88.com/archives/5240)，略有修改。
+> 本文转载自：[http://www.css88.com/archives/5240](http://www.css88.com/archives/5240)，略有修改。

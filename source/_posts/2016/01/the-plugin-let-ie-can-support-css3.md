@@ -2,7 +2,6 @@ title: 一款可以让 ie 支持 css3 的插件
 date: 2016-01-05 15:43:02
 categories: css
 keywords: 浏览器兼容, css3, ie, pie
-description:
 tags: [浏览器兼容, css3, ie, pie]
 ---
 

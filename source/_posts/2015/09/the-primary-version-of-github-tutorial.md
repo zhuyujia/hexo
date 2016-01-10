@@ -6,7 +6,6 @@ tags: [github,git,ssh]
 ---
 
 [github](https://github.com/) 是一个基于 git 的代码托管平台，付费用户可以建私人仓库，免费用户只能使用公共仓库。对于一般人来说公共仓库就已经足够了，而且也没多少代码来管理。下面简单介绍如何使用 [github](https://github.com/)，供初学者参考。
-
 <!--more-->
 
 ## 注册账号

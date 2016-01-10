@@ -2,7 +2,6 @@ title: 自定义 placeholder 文本颜色
 date: 2016-01-08 21:43:33
 categories: css
 keywords: placeholder, -webkit-input-placeholder, -moz-placeholder
-description:
 tags: [placeholder, -webkit-input-placeholder, -moz-placeholder]
 ---
 

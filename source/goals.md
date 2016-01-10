@@ -9,8 +9,8 @@ description: 2016年目标
 
 ## Sass ##
 
-- 整理 [mySass](https://github.com/zhuyujia/mySass) 库（进度：*30%*）
-- 将 [mySass](https://github.com/zhuyujia/mySass) 使用到项目中（进度：*5%*）
+- 整理 [zSass](https://github.com/zhuyujia/zSass) 库（进度：*70%*）
+- 将 [zSass](https://github.com/zhuyujia/zSass) 使用到项目中（进度：*10%*）
 
 ## Javascript ##
 

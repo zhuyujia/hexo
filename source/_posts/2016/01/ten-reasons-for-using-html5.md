@@ -1,6 +1,7 @@
 title: 使用 html5 的十大原因
 date: 2016-01-02 14:48:20
 categories: html
+description: 你难道还没有考虑使用 html5？ 当然我猜想你可能有自己的原因：它现在还没有被广泛的支持，在 ie 中不好使，或者你就是喜欢写比较严格的 xhtml 代码。html5 是 web 开发世界的一次重大的改变，事实上不管你是否喜欢，它都是代表着未来趋势。其实 html5 并不难理解和使用。我们这里能列出许多原因为什么现在要开始使用 html5。
 keywords: html, html5
 tags: [html, html5]
 ---
@@ -10,8 +11,6 @@ tags: [html, html5]
 目前有很多的文章介绍使用 html5 并且介绍了使用它的优势和好处，没错，这篇文章也类似。随着更多这样的文章，以及 apple 的支持，adobe 围绕 html5 的产品开发，以及移动 flash 的死亡，如此多网站的支持，我想对那些仍旧没有或者不想接受它的人说一些话。我认为主要得原因是，它看起来像一个神秘的东西。很多感觉它像喷气背包或者飞行汽车。一个未经验证的非凡想法但是并不实际。但是事实上现在已近非常的实际了。
 
 为了解密 html5 并且帮助顽固的开发设计人员，我这里写了列出了使用 html5 的几大原因，希望对大家有帮助！
-
-<!--more-->
 
 ## 第十大原因：易用性 ##
 
@@ -136,5 +135,5 @@ html5 中最酷的特性就是本地存储。有一点像比较老的技术 cook
 
 你实际上没有任何借口不接受 html5。事实上我唯一一个原因使用 html5 是因为它书写代码简单清晰。其它的特性其实我也没有真正使用。你可以考虑现在开始使用 html5 书写代码，它能帮助你改变书写代码的方式及其设计方式。开始用 html5 代码编写 web 应用吧，说不定下一个移动应用或者游戏应用就是用 html5 开发的！
 
-英文原文：[Top 10 Reasons to Use HTML5 Right Now](http://tympanus.net/codrops/2011/11/24/top-10-reasons-to-use-html5-right-now/)  
-转载地址：[使用 html5 的十大原因 - 月光博客](http://www.williamlong.info/archives/3024.html)
+> 英文原文：[Top 10 Reasons to Use HTML5 Right Now](http://tympanus.net/codrops/2011/11/24/top-10-reasons-to-use-html5-right-now/)  
+> 转载地址：[使用 html5 的十大原因 - 月光博客](http://www.williamlong.info/archives/3024.html)

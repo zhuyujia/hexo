@@ -215,8 +215,5 @@ css 中文字体可以用 unicode 格式来表示，比如“宋体”可以用 
 - [前端编码规范——jquery 规范](/2015/10/front-end-code-specification-jquery.html)
 - [前端编码规范——注释规范](/2015/10/front-end-code-specification-comment.html)
 
-## 注 ##
-
-原文：[Web Styleguide - Style guide to harmonize HTML, Javascript and CSS / Sass coding style](https://github.com/gionkunz/chartist-js/blob/develop/CODINGSTYLE.md)
-
-本文转载自：[http://www.css88.com/archives/5505](http://www.css88.com/archives/5505)，略有修改。
+> 原文：[Web Styleguide - Style guide to harmonize HTML, Javascript and CSS / Sass coding style](https://github.com/gionkunz/chartist-js/blob/develop/CODINGSTYLE.md)  
+> 本文转载自：[http://www.css88.com/archives/5505](http://www.css88.com/archives/5505)，略有修改。

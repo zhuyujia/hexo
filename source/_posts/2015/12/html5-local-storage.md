@@ -1,12 +1,12 @@
 title: html5 本地存储
 date: 2015-12-31 10:59:46
 categories: html
+description: 最近一直在学习 html5，为了后期的项目进行知识储备。html5 相对于 html4 新增加了一些有趣的标签、属性和方法，今天主要介绍下 html5 的本地存储。
 keywords: html, html5, localStorage, sessionStorage
 tags: [html, html5, localStorage, sessionStorage]
 ---
 
 最近一直在学习 html5，为了后期的项目进行知识储备。html5 相对于 html4 新增加了一些有趣的标签、属性和方法，今天主要介绍下 html5 的本地存储。
-<!--more-->
 
 ## 在客户端存储数据 ##
 
