@@ -5,11 +5,11 @@ description: 2016年目标
 
 ## Css3 ##
 
-- 看完[《图解CSS3核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)（进度：*第四章*）
+- 看完[《图解CSS3核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)（进度：*第五章*）
 
 ## Sass ##
 
-- 整理 [zSass](https://github.com/zhuyujia/zSass) 库（进度：*70%*）
+- 整理 [zSass](https://github.com/zhuyujia/zSass) 库（进度：*80%*）
 - 将 [zSass](https://github.com/zhuyujia/zSass) 使用到项目中（进度：*10%*）
 
 ## Javascript ##
