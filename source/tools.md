@@ -37,7 +37,7 @@ description: 罗列平时用到的一些前端工具。
 - [Sprite Cow](http://www.spritecow.com/)
 - [智图](http://zhitu.isux.us/)
 
-## 项目管理 ##
+## 构建工具 ##
 
 - [Gulp](http://www.gulpjs.com.cn/)
 - [Grunt](http://www.gruntjs.net/)
