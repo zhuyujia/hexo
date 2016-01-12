@@ -16,9 +16,10 @@ description: 2016年目标
 
 - 学习 [RequireJS](http://www.requirejs.cn/)（进度：*尚未开始*）
 - 学习 [NodeJs](http://www.lvtao.net/content/book/node.js.htm)（进度：*尚未开始*）
-- 看完《JavaScript高级程序设计（第 3 版）》（进度：*第四章*）
-- 整理平时用到的插件（进度：*1%*）
+- 看完《JavaScript高级程序设计（第 3 版）》（进度：*第三章*）
+- [整理平时用到的插件](/plugins.html)（进度：*1%*）
 
 ## 构建工具 ##
 
-- 学习 [Gulp](http://www.gulpjs.com.cn/)（进度：*尚未开始*）
+- [Gulp](http://www.gulpjs.com.cn/) 入门（*100%*）
+- 熟练使用 [Gulp](http://www.gulpjs.com.cn/)（*10%*）
