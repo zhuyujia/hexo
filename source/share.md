@@ -1,6 +1,6 @@
-title: 分享
+title: 前端分享
 date: 2016-01-02 14:40:20
-description: 这是一个分享页面，分享一些常用的插件等等。
+description: 分享一些常用的插件等等。
 ---
 
 ## Css3 ##
