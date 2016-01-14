@@ -1,6 +1,6 @@
-title: 整理插件
+title: 分享
 date: 2016-01-02 14:40:20
-description: 整理平时用到的一些原生和 jquery 的插件。
+description: 这是一个分享页面，分享一些常用的插件等等。
 ---
 
 ## Css3 ##
