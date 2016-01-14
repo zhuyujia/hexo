@@ -5,7 +5,7 @@ keywords: css, 字体, unicode
 tags: [css, 字体, unicode]
 ---
 
-css 字体名可以使用 2 种 unicode 格式，以“微软雅黑”为例：`\5FAE\8F6F\96C5\9ED1` 和 `&#x5FAE;&#x8F6F;&#x96C5;&#x9ED1;`。
+css 字体名可以使用 2 种 unicode 格式，以“微软雅黑”为例：`&#x5FAE;&#x8F6F;&#x96C5;&#x9ED1;` 和 `\5FAE\8F6F\96C5\9ED1`。
 
 另外注意：繁体中文字体名，在简体中文系统中是不能被识别的。
 <!--more-->
