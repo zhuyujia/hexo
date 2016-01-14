@@ -15,6 +15,7 @@ description: 罗列平时用到的一些前端工具。
 
 - [Cmd Markdown 编辑阅读器](https://www.zybuluo.com/mdeditor)
 - [Bach's Editor](http://editor.integ.me/)
+- [MarkdownPad](http://markdownpad.com/)
 
 ## 代码美化/压缩 ##
 
