@@ -33,7 +33,7 @@ description: 罗列平时用到的一些前端工具。
 
 ## 图片压缩/合并 ##
 
-- [Tinypng](https://tinypng.com/)
+- [TinyPNG](https://tinypng.com/)
 - [Placehold](http://placehold.it/)
 - [Sprite Cow](http://www.spritecow.com/)
 - [智图](http://zhitu.isux.us/)
