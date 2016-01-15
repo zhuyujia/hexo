@@ -6,7 +6,7 @@ keywords: css, checkbox, radio, vertical-align, input, 垂直居中
 tags: [css, checkbox, radio, vertical-align, input, 垂直居中]
 ---
 
-现在的网站一般字体大小都是 12px，在 12px 下单选框和复选框与文本垂直居中对不齐，解决方法有很多，下面我整理最常用的 3 种。
+现在的网站一般字体大小都是 12px，在 12px 下单选框和复选框与文本垂直居中对不齐，解决方法有很多，今天我整理了下最常用的 3 种方法。
 <!--more-->
 
 **html 结构：**
@@ -72,6 +72,10 @@ tags: [css, checkbox, radio, vertical-align, input, 垂直居中]
     }
 }
 ```
+
+**效果如图所示：**
+
+![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/2016/01/2.png)
 
 测试浏览器：chrome，firefox，ie7-10
 
