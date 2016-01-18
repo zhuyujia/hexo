@@ -21,4 +21,4 @@ description: 2016年目标
 ## 构建工具 ##
 
 - [Gulp](http://www.gulpjs.com.cn/) 入门（*100%*）
-- 熟练使用 [Gulp](http://www.gulpjs.com.cn/)（*50%*）
+- 熟练使用 [Gulp](http://www.gulpjs.com.cn/)（*100%*）
