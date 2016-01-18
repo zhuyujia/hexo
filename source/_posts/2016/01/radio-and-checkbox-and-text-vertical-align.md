@@ -9,7 +9,7 @@ tags: [css, checkbox, radio, vertical-align, input, 垂直居中]
 现在的网站一般字体大小都是 12px，在 12px 下单选框和复选框与文本垂直居中对不齐，解决方法有很多，今天我整理了下最常用的 3 种方法。
 <!--more-->
 
-**html 结构：**
+**Html：**
 
 ``` html
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ tags: [css, checkbox, radio, vertical-align, input, 垂直居中]
 </html>
 ```
 
-**scss：**
+**Css：**
 
 ``` scss
 @charset "utf-8";
@@ -73,10 +73,10 @@ tags: [css, checkbox, radio, vertical-align, input, 垂直居中]
 }
 ```
 
-**效果如图所示：**
+**效果如下：**
 
 ![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/2016/01/2.png)
 
-测试浏览器：chrome，firefox，ie7-10
+测试浏览器：chrome/firefox/ie7-11
 
 > 参考资料：[复选框单选框与文字对齐问题的研究与解决](http://www.zhangxinxu.com/wordpress/2009/08/%E5%A4%8D%E9%80%89%E6%A1%86%E6%88%96%E5%8D%95%E9%80%89%E6%A1%86%E4%B8%8E%E6%96%87%E5%AD%97%E5%AF%B9%E9%BD%90%E7%9A%84%E9%97%AE%E9%A2%98%E7%9A%84%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E4%B8%8E%E4%B8%80/)
