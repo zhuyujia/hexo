@@ -68,7 +68,8 @@ description: 这是我的个人简历。
 
 # 专业技能
 
-- 前端开发：Html/Html5/Css/Css3/Sass/Less/hotcss/javascript
+- 前端开发：Html/Html5/Css/Css3/Sass/hotcss/javascript
 - 框架和库：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
 - 版本管理：Svn/Git
 - 开发工具：Photoshop/Flash/Sublime Text 3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
+- 构建工具：Gulp
