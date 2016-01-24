@@ -52,7 +52,7 @@ description: 这是我的个人简历。
 
 **PC端：**
 
- - [常用工具类整理](https://github.com/zhuyujia/utils)
+ - [常用工具类整理](https://github.com/zhuyujia/zUtils)
  - [绿岸网络-充值中心](https://github.com/zhuyujia/iwgame-pay)
  - [绿岸网络-通行证](https://github.com/zhuyujia/iwgame-passport)
  - [绿岸网络-统计代码](https://github.com/zhuyujia/iwgame-hm)
