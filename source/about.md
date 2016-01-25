@@ -5,18 +5,18 @@ description: 这是我的个人简历。
 
 # 个人信息
 
- - 朱羽佳/男/1987 
- - 本科/上海大学计算机系 
- - 工作年限：5年
+- 朱羽佳/男/1987 
+- 本科/上海大学计算机系 
+- 工作年限：5年
 
 
--  技术博客：[http://www.cnblogs.com/yjzhu/](http://www.cnblogs.com/yjzhu/)
+-  技术博客：[http://zhuyujia.github.io/](http://zhuyujia.github.io/) 和 [http://www.cnblogs.com/yjzhu/](http://www.cnblogs.com/yjzhu/)
 -  Github: [https://github.com/zhuyujia](https://github.com/zhuyujia)
 
 
- - 期望职位：前端开发
- - 期望薪资：税前月薪 15k ~ 18k
- - 期望城市：上海
+- 期望职位：前端开发
+- 期望薪资：税前月薪 15k ~ 18k
+- 期望城市：上海
 
 ---
 
@@ -52,17 +52,18 @@ description: 这是我的个人简历。
 
 **PC端：**
 
- - [常用工具类整理](https://github.com/zhuyujia/zUtils)
- - [绿岸网络-充值中心](https://github.com/zhuyujia/iwgame-pay)
- - [绿岸网络-通行证](https://github.com/zhuyujia/iwgame-passport)
- - [绿岸网络-统计代码](https://github.com/zhuyujia/iwgame-hm)
- - [绿岸网络-客服来电系统](https://github.com/zhuyujia/iwgame-call-center)
- - [绿岸网络-活动系统](https://github.com/zhuyujia/iwgame-act)
+- [zSass 库](https://github.com/zhuyujia/zSass)
+- [常用工具类 zUtils](https://github.com/zhuyujia/zUtils)
+- [绿岸网络-充值中心](https://github.com/zhuyujia/iwgame-pay)
+- [绿岸网络-通行证](https://github.com/zhuyujia/iwgame-passport)
+- [绿岸网络-统计代码](https://github.com/zhuyujia/iwgame-hm)
+- [绿岸网络-客服来电系统](https://github.com/zhuyujia/iwgame-call-center)
+- [绿岸网络-活动系统](https://github.com/zhuyujia/iwgame-act)
 
 **移动端：**
 
- - [绿岸网络-魔兽app攻略](https://github.com/zhuyujia/iwgame-wow)
- - [绿岸网络-神庙逃亡2APP攻略](https://github.com/zhuyujia/iwgame-temple-run2)
+- [绿岸网络-魔兽app攻略](https://github.com/zhuyujia/iwgame-wow)
+- [绿岸网络-神庙逃亡2APP攻略](https://github.com/zhuyujia/iwgame-temple-run2)
 
 ---
 
@@ -71,5 +72,5 @@ description: 这是我的个人简历。
 - 前端开发：Html/Html5/Css/Css3/Sass/hotcss/javascript
 - 框架和库：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
 - 版本管理：Svn/Git
-- 开发工具：Photoshop/Flash/Sublime Text 3/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
+- 开发工具：Photoshop/Flash/ST3/Emmet/Koala/Nginx/Fiddler2/Sothink SWF Decompiler/Nodejs/Markdownpad2/Winscp
 - 构建工具：Gulp
