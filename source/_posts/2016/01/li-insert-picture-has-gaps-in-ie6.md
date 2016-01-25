@@ -1,4 +1,4 @@
-title: ie6 中 li 插入图片后下方有空隙 bug
+title: ie6 中 li 插入图片后有空隙
 date: 2016-01-25 14:35:22
 categories: css
 keywords: css, ie6, vertical-align, display
