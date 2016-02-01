@@ -11,13 +11,13 @@ description: 2016年目标
 
 ### Sass ###
 
-- 学习 [Sass](http://www.w3cplus.com/blog/tags/302.html)（进度：*30%*）
+- 学习 [Sass](http://www.w3cplus.com/blog/tags/302.html)（进度：*50%*）
 - 编写 [zSass](https://github.com/zhuyujia/zSass) 库（*100%*）
 
 ### JavaScript ###
 
 - [整理常用工具类](https://github.com/zhuyujia/zUtils)（进度：*30%*）
-- [整理平时用到的插件](/plugins.html)（进度：*1%*）
+- [整理平时用到的插件](/plugins.html)（进度：*5%*）
 - 看完《JavaScript高级程序设计（第 3 版）》（进度：*第五章*）
 - 看完[《汤姆大叔深入理解 JavaScript 系列》](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)（进度：*第二章*）
 - 学习 [RequireJS](http://www.requirejs.cn/)（进度：*尚未开始*）
