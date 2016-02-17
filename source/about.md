@@ -3,7 +3,7 @@ date: 2015-12-26 22:28:50
 description: 这是我的个人简历。
 ---
 
-# 个人信息
+# 个人信息 #
 
 - 朱羽佳/男/1987 
 - 本科/上海大学计算机系 
@@ -20,7 +20,7 @@ description: 这是我的个人简历。
 
 ---
 
-# 联系方式
+# 联系方式 #
 
 - 手机：13917348186
 - Email：yjzhu1987@126.com
@@ -28,11 +28,13 @@ description: 这是我的个人简历。
 
 ---
 
-# 工作经历&项目经验
+# 工作经历&项目经验 #
 
-## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月）
+## 智阳网络技术（上海）有限公司（2016年2月 ~ 至今） ##
 
-### 绿岸网络-通行证平台
+## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月） ##
+
+### 绿岸网络-通行证平台 ###
 
 　　[绿岸网络-通行证平台](http://passport.iwgame.com/)是为公司游戏提供稳定、安全的账号管理平台。该平台提供两种业务：我的通行证及账号中心；
 
@@ -42,7 +44,7 @@ description: 这是我的个人简历。
 
 　　整个站点下的所有页面都是由 freemarker 模板制作，使用 freemarker 的好处在于可以设置模板参数，后端在生成页面时，可以写入一些有用的数据，并且可以提取页面的公共部分，通过 include 导入公共模块。该项目使用了以下几个插件或框架：MPT、jquery.cookie、passwordStrength 密码强度、[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/)。
 
-### 绿岸网络-充值中心
+### 绿岸网络-充值中心 ###
 
 　　[绿岸网络-充值平台](http://pay.iwgame.com/)是为公司游戏提供稳定、安全的充值平台。该平台提供四大业务：账号充值、充值记录查询、一卡通卡号验证以及销售网点；
 
@@ -56,7 +58,7 @@ description: 这是我的个人简历。
 
 　　整个站点下的所有页面都是由 freemarker 模板制作，使用 freemarker 的好处在于可以设置模板参数，后端在生成页面时，可以写入一些有用的数据，并且可以提取页面的公共部分，通过 include 导入公共模块。该项目使用了以下几个插件或框架：MPT、[Validform 表单验证](http://validform.rjboy.cn/)、 [blockUI 弹层](http://malsup.com/jquery/block/)、[My97DatePicker 日期控件](http://www.my97.net/)。
 
-### 绿岸网络-客服中心
+### 绿岸网络-客服中心 ###
 
 　　[绿岸网络-客服中心](http://cs.iwgame.com/)是为公司游戏提供稳定、安全的自助申述服务平台。该平台提供给玩家两种服务：自助服务、申述工单；
 
@@ -66,15 +68,15 @@ description: 这是我的个人简历。
 
 　　整个站点下的所有页面都是由 freemarker 模板制作，使用 freemarker 的好处在于可以设置模板参数，后端在生成页面时，可以写入一些有用的数据，并且可以提取页面的公共部分，通过 include 导入公共模块。该项目使用了以下几个插件或框架：MPT、[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/)、[My97DatePicker 日期控件](http://www.my97.net/)、passwordStrength 密码强度。
 
-## 上海紫坤实业有限公司（2010年7月 ~ 2010年10月）
+## 上海紫坤实业有限公司（2010年7月 ~ 2010年10月） ##
 
-### 企业官网制作
+### 企业官网制作 ###
 
 　　纯静态页面，用 dw 编写 html 和 css。
 
 ---
 
-# 开源项目
+# 开源项目 #
 
 **PC端：**
 
@@ -93,7 +95,7 @@ description: 这是我的个人简历。
 
 ---
 
-# 专业技能
+# 专业技能 #
 
 - 前端开发：Html/Html5/Css/Css3/Sass/hotcss/javascript
 - 框架和库：Jquery/JqueryUI/JqueryMobile/Zepto/Bootstrap/MPT
