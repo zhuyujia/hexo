@@ -21,7 +21,7 @@ tags: [html, css, hr, 分割线]
 hr { 
     height: 1px;
     background-color: #f60;
-    border: 1px solid #000;
+    border: 1px solid #07f;
     *height: 3px;
     color: #f60;
 }
