@@ -129,7 +129,7 @@ tag_generator:
   per_page: 10
 
 # Swiftype Search Key
-swiftype_key: 4PN81G1PQWyh-hxKyG4X
+swiftype_key: cNB8zuyBUaLqzz6FyHSj
 
 # 七牛同步
 qiniu:
