@@ -31,9 +31,9 @@ demo 代码：
 </html>
 ```
 
-通过 demo 我们可以发现，在 ie6 和 ie7 浏览器中，鼠标移上去上下边框不显示只有左右边框显示，而其他浏览器都是正常显示，为什么呢？因为 a 标签在 ie6 和 ie7 中 `hasLayout` 属性为 false，至于何为 `hasLayout`？请谷歌或者百度，这里我就不多说了。
+通过 demo 我们可以发现，在 ie6 和 ie7 浏览器中，鼠标移上去上下边框不显示只有左右边框显示，而其他浏览器都是正常显示，为什么呢？因为 a 标签在 ie6 和 ie7 中 hasLayout 属性为 false，至于何为 hasLayout？请谷歌或者百度，这里我就不多说了。
 
-既然知道了是 `hasLayout` 的问题，那么只需要设置 `hasLayout` 就行了，设置的方法有很多，下面就列出常用的 2 种方法：
+既然知道了是 hasLayout 的问题，那么只需要设置 hasLayout 就行了，设置的方法有很多，下面就列出常用的 2 种方法：
 
 ``` css
 a:hover{position:relative;}
@@ -41,4 +41,4 @@ a:hover{position:relative;}
 a:hover{zoom:1;}
 ```
 
-最后说明下：ie 下 80% 的 bug 都是由于元素没有 `hasLayout` 所造成的，所以如果在 ie 下碰到难以解释的问题，第一件事情要做的就是给该元素添加 `hasLayout`。
+最后说明下：ie 下大部分的 bug 都是由于元素没有 hasLayout 所造成的，所以如果在 ie 下碰到难以解释的问题，第一件事情要做的就是给该元素添加 hasLayout。

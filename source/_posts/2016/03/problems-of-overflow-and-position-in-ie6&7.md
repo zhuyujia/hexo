@@ -5,7 +5,7 @@ keywords: css, ie6, position, ie7, relative, overflow
 tags: [css, ie6, position, ie7, relative, overflow]
 ---
 
-前几天做的项目中碰到这样一个问题，在 ie6 和 ie7 下，给父元素设置 overflow:hidden 不起作用无法隐藏，后来发现是子元素中有设置 position:relative，如果子元素删除 position:relative，那么父元素的 overflow:hidden 可以隐藏，具体代码及效果如下：
+前几天做的项目中碰到这样一个问题，在 ie6 和 ie7 下，给父元素设置 `overflow:hidden` 不起作用无法隐藏，后来发现是子元素中有设置 `position:relative`，如果子元素删除 `position:relative`，那么父元素的 `overflow:hidden` 可以隐藏，具体代码及效果如下：
 <!--more-->
 
 ``` html
@@ -58,4 +58,4 @@ ie6 和 ie7 下效果：
 
 ![](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/2016/03/1.png)
 
-**解决方法：**给父元素设置 position:relative。
+**解决方法：**给父元素设置 `position:relative`。
