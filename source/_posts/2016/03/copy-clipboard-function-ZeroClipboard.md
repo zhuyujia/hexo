@@ -20,7 +20,7 @@ clipboardData 对象只有 ie 浏览器认识，该对象有 3 个方法：`clea
 
 ## ZeroClipboard.js ##
 
-对于非 ie 浏览器我们可以使用 ZeroClipboard.js。
+对于非 ie 浏览器我们可以使用 ZeroClipboard.js。[点击下载实例](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/2016/03/ZeroClipboard.zip)。
 
 ### 实现原理 ###
 
