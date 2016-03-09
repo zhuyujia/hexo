@@ -8,7 +8,6 @@ description: 2016年目标
 ### Css ###
 
 - 看完[《图解CSS3核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)（*第五章*）
-- 学习 [Sass](http://www.w3cplus.com/blog/tags/302.html)（*80%*）
 
 ### JavaScript ###
 
@@ -19,6 +18,5 @@ description: 2016年目标
 
 ### 前端框架 ###
 
-- [Bootstrap 学习](http://v3.bootcss.com/)（*10%*）
 - [AngularJS 学习](http://www.runoob.com/angularjs/angularjs-tutorial.html)（*尚未开始*）
 - [RequireJS 学习](http://www.requirejs.cn/)（*尚未开始*）
