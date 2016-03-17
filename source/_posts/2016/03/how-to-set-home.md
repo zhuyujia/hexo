@@ -5,9 +5,6 @@ keywords: javascript, 设为首页, 设置首页, 代码, 首页
 tags: [javascript, 设为首页, 设置首页, 代码, 首页]
 ---
 
-原生 javascript，兼容所有的浏览器（ie，chrome，firefox）。
-<!--more-->
-
 ``` javascript
 function setHome(obj, url) {
     try {
@@ -28,6 +25,7 @@ function setHome(obj, url) {
     }
 }
 ```
+<!--more-->
 
 **参数说明**
 

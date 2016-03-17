@@ -5,9 +5,6 @@ keywords: javascript, url, location, search
 tags: [javascript, url, location, search]
 ---
 
-原生 javascript，兼容所有的浏览器（ie，chrome，firefox）。
-<!--more-->
-
 ``` javascript
 function getUrlParam(name) {
     var regExp = new RegExp('([?]|&)' + name + '=([^&]*)(&|$)');
@@ -19,6 +16,7 @@ function getUrlParam(name) {
     }
 }
 ```
+<!--more-->
 
 **参数说明**
 

@@ -5,9 +5,6 @@ keywords: javascript, addFavorite, favorite, 收藏本站
 tags: [javascript, addFavorite, favorite, 收藏本站]
 ---
 
-原生 javascript，兼容所有的浏览器（ie，chrome，firefox），值得收藏。
-<!--more-->
-
 ``` javascript
 function addFavorite(obj, opts){
     var _t, _u;
@@ -31,6 +28,7 @@ function addFavorite(obj, opts){
     }
 }
 ```
+<!--more-->
 
 **参数说明**
 
