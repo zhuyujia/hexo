@@ -5,4 +5,6 @@ description: 罗列平时用到的一些插件。
 
 ## 原生 JavaScript ##
 
-[复制剪贴板功能——ZeroClipboard](http://zhuyujia.github.io/2016/03/copy-clipboard-function-ZeroClipboard.html)
+[复制剪贴板功能——ZeroClipboard](/2016/03/copy-clipboard-function-ZeroClipboard.html)
+
+[日期控件 My97DatePicker](/2016/03/date-plug-My97DatePicker.html)
