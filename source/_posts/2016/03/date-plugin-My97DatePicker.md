@@ -36,4 +36,4 @@ ie 6.0+，firefox 2.0+，chrome，opera 9.5+，safari 3.0+
 
 [点击这里查看具体配置及文档说明](http://www.my97.net/dp/demo/index.htm)
 
-[点击这里下载 My97DatePicker](http://www.my97.net/dp/down.asp)
+[点击这里下载 My97DatePicker](http://7xn4vv.com1.z0.glb.clouddn.com/static/upload/2016/03/My97DatePicker.zip)
