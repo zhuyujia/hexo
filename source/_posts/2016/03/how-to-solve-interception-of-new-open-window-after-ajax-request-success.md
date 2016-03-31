@@ -7,7 +7,7 @@ tags: [jquery, javascript, ajax, window.open, open]
 
 ## 问题 ##
 
-前面开发项目时碰到一个问题，ajax 异步请求成功后需要新开窗口打开 url，使用的是 `window.open()` 方法，但是很可惜被浏览器给拦截了，怎么解决这个问题呢？
+以前开发项目时碰到一个问题，ajax 异步请求成功后需要新开窗口打开 url，使用的是 `window.open()` 方法，但是很可惜被浏览器给拦截了，怎么解决这个问题呢？
 
 ## 分析 ##
 
