@@ -32,7 +32,7 @@ description: 这是我的个人简历。
 
 ## 智阳网络技术（上海）有限公司（2016年2月 ~ 至今） ##
 
-**安心小保**
+**[安心小保](https://github.com/zhuyujia/hro-secure-social-security)**
 
 安心小保是一款管理社保及公积金的 app 应用，可以帮助企业方便快捷的帮助员工缴纳社保和公积金，该产品包括了以下几大功能：在线充值（包括支付和提现）、方便快速的修改参保人社保和公积金的缴纳基数以及提供缴费记录查询。
 
@@ -40,7 +40,7 @@ description: 这是我的个人简历。
 
 ## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月） ##
 
-**通行证平台**
+**[通行证平台](https://github.com/zhuyujia/iwgame-passport)**
 
 [绿岸网络-通行证平台](http://passport.iwgame.com/)是为公司游戏提供稳定、安全的账号管理平台。该平台提供两种业务：我的通行证及账号中心；
 
@@ -50,7 +50,7 @@ description: 这是我的个人简历。
 
 整个站点下的所有页面都是由 freemarker 模板制作，使用 freemarker 的好处在于可以设置模板参数，后端在生成页面时，可以写入一些有用的数据，并且可以提取页面的公共部分，通过 include 导入公共模块。该项目使用了以下几个插件或框架：MPT、jquery.cookie、passwordStrength 密码强度、[Validform 表单验证](http://validform.rjboy.cn/)、[blockUI 弹层](http://malsup.com/jquery/block/)。
 
-**充值中心**
+**[充值中心](https://github.com/zhuyujia/iwgame-pay)**
 
 [绿岸网络-充值平台](http://pay.iwgame.com/)是为公司游戏提供稳定、安全的充值平台。该平台提供四大业务：账号充值、充值记录查询、一卡通卡号验证以及销售网点；
 

@@ -1052,7 +1052,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e92b1c;
+  background: #ffac33;
 }
 .sidebar-nav {
   margin: 0;
@@ -2185,6 +2185,10 @@ ul li {
   max-width: 100%;
   width: auto;
   margin: 0;
+}
+.post code {
+  background-color: #f9f2f4;
+  color: #c7254e;
 }
 .post-body p .pic-title {
   margin: 0 auto;
