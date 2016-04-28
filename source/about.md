@@ -32,11 +32,17 @@ description: 这是我的个人简历。
 
 ## 智阳网络技术（上海）有限公司（2016年2月 ~ 至今） ##
 
-**[安心小保](https://github.com/zhuyujia/hro-secure-social-security)**
+**[安心小保](https://github.com/zhuyujia/ezy-hro-sss)**
 
 安心小保是一款管理社保及公积金的 app 应用，可以帮助企业方便快捷的帮助员工缴纳社保和公积金，该产品包括了以下几大功能：在线充值（包括支付和提现）、方便快速的修改参保人社保和公积金的缴纳基数以及提供缴费记录查询。
 
 安心小保是基于 [hotcss](https://github.com/imochen/hotcss)，结合 [zepto](http://zeptojs.com/)、[TouchSlide](http://www.superslide2.com/TouchSlide/) 和 [layer mobile](http://layer.layui.com/mobile/) 开发的 H5 手机页面。
+
+**[智阳IM](https://github.com/zhuyujia/ezy-web-im)**
+
+智阳 IM web 版是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊以及预约会议，添加好友、建群组拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能展示公司的组织架构，无需添加好友，即可在线聊天。
+
+智阳 IM web 版是基于[融云 web sdk2.0](http://www.rongcloud.cn/docs/web.html)，结合[融云表情库](http://cdn.ronghub.com/RongEmoji-2.0.3.min.js)、[jeegoocontext](http://www.tweego.nl/jeegoocontext)、[fancybox](http://fancyapps.com/fancybox/)、[dmuploader](https://github.com/danielm/uploader/) 和 [perfect-scrollbar](http://plugins.jquery.com/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
 
 ## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月） ##
 
@@ -93,12 +99,13 @@ description: 这是我的个人简历。
 - [绿岸网络-统计代码](https://github.com/zhuyujia/iwgame-hm)
 - [绿岸网络-客服来电系统](https://github.com/zhuyujia/iwgame-call-center)
 - [绿岸网络-活动系统](https://github.com/zhuyujia/iwgame-act)
+- [智阳网络-web 版 IM](https://github.com/zhuyujia/ezy-web-im)
 
 **移动端**
 
-- [智阳网络-安心小保](https://github.com/zhuyujia/hro-secure-social-security)
 - [绿岸网络-魔兽app攻略](https://github.com/zhuyujia/iwgame-wow)
 - [绿岸网络-神庙逃亡2APP攻略](https://github.com/zhuyujia/iwgame-temple-run2)
+- [智阳网络-安心小保](https://github.com/zhuyujia/ezy-hro-sss)
 
 ---
 
