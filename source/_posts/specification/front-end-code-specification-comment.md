@@ -1,8 +1,8 @@
 title: 前端编码规范——注释规范
 date: 2015-10-13 11:15:16
 categories: 规范
-keywords: 前端,规范,前端规范,html,css,javascript,jquery,注释
-tags: [前端规范,规范,注释]
+keywords: 前端, 规范, 前端规范, html, css, javascript, jquery, 注释
+tags: [前端规范, 规范, 注释]
 description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript，jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。本文为注释规范。
 ---
 

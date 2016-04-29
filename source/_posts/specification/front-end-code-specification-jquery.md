@@ -1,65 +1,71 @@
 title: 前端编码规范——jquery 规范
 date: 2015-10-12 16:02:06
 categories: 规范
-keywords: 前端,规范,前端规范,html,css,javascript,jquery,注释
-description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript 和 jquery 这几个部分。本文为 jquery 规范。
-tags: [前端规范,规范,jquery]
+keywords: 前端, 规范, 前端规范, html, css, javascript, jquery, 注释
+tags: [前端规范, 规范, jquery]
+description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript，jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。本文为 jquery 规范。
 ---
 
-## 前言 ##
-
-这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript 和 jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。
-
-## jquery 规范 ##
-
-### 缓存变量 ###
+## 缓存变量 ##
 
 DOM 遍历是昂贵的，所以尽量将会重用的元素缓存。
 
-``` javascript
-// 糟糕
-h = $('#element').height();
-$('#element').css('height',h - 20);
+**不推荐**
 
-// 建议
-$element = $('#element');
-h = $element.height();
-$element.css('height',h - 20);
+``` javascript
+var h = $('#element').height();
+$('#element').css('height', h - 20);
 ```
 
-### 避免全局变量 ###
+**推荐**
+
+``` javascript
+var $element = $('#element'),
+    h = $element.height();
+$element.css('height', h - 20);
+```
+
+## 避免全局变量 ##
 
 jquery 与 javascript 一样，一般来说，最好确保你的变量在函数作用域内。
 
+**不推荐**
+
 ``` javascript
-// 糟糕
 $element = $('#element');
 h = $element.height();
 $element.css('height',h - 20);
+```
 
-// 建议
-var $element = $('#element');
-var h = $element.height();
+**推荐**
+
+``` javascript
+var $element = $('#element'),
+    h = $element.height();
 $element.css('height',h - 20);
 ```
 
-### 使用匈牙利命名法 ###
+## 使用驼峰式命名 ##
 
-使用[匈牙利命名法](/2015/10/javascript-variable-naming-rule.html)，添加 `$` 前缀，便于识别出 jquery 对象。
+使用[驼峰式](/specification/javascript-variable-naming-rule.html)命名，在前面添加 `$` 作为前缀，以便于标示为 jquery 对象。
+
+**不推荐**
 
 ``` javascript
-// 糟糕
-var first = $('#first');
-var second = $('#second');
-var value = $first.val();
-
-// 建议 - 在 jQuery 对象前加 $ 前缀
-var $first = $('#first');
-var $second = $('#second');
-var value = $first.val();
+var first = $('#first'),
+    second = $('#second'),
+    value = $first.val();
 ```
 
-### 使用 var 链（单 var 模式） ###
+**推荐**
+
+``` javascript
+var $first = $('#first'),
+    $second = $('#second'),
+    value = $first.val();
+```
+
+## 使用单 var 模式 ##
 
 将多条 `var` 语句合并为一条语句，建议将未赋值的变量放到后面。
 
@@ -74,43 +80,51 @@ var $first = $('#first'),
 	myArray = {};
 ```
 
-### 使用 on 来处理事件 ###
+## 使用 on 来处理事件 ##
 
-在新版 jquery 中，更短的 `on("click")` 用来取代类似 `click()` 这样的函数。在之前的版本中 `on()` 就是 `bind()`。自从 jquery 1.7 版本后，`on()` 是附加事件处理程序的首选方法。出于一致性考虑，你可以简单的全部使用 `on()` 方法。
+在新版 jquery 中，更短的 `on('click')` 用来取代类似 `click()` 这样的函数。在之前的版本中 `on()` 就是 `bind()`。自从 jquery 1.7 版本后，`on()` 是附加事件处理程序的首选方法。出于一致性考虑，你可以简单的全部使用 `on()` 方法。
+
+**不推荐**
 
 ``` javascript
-// 糟糕
 $first.click(function(){
-    $first.css('border','1px solid red');
-    $first.css('color','blue');
+    $first.css('border', '1px solid red');
+    $first.css('color', 'blue');
 });
 $first.hover(function(){
-    $first.css('border','1px solid red');
-});
-
-// 建议
-$first.on('click',function(){
-    $first.css('border','1px solid red');
-    $first.css('color','blue');
-});
-$first.on('hover',function(){
-    $first.css('border','1px solid red');
+    $first.css('border', '1px solid red');
 });
 ```
 
-### 精简 javascript ###
-
-一般来说，最好尽可能合并函数。
+**推荐**
 
 ``` javascript
-// 糟糕
-$first.click(function(){
-    $first.css('border','1px solid red');
-    $first.css('color','blue');
+$first.on('click', function(){
+    $first.css('border', '1px solid red');
+    $first.css('color', 'blue');
 });
+$first.on('hover', function(){
+    $first.css('border', '1px solid red');
+});
+```
 
-// 建议
-$first.on('click',function(){
+## 精简 jquery ##
+
+一般来说，最好尽可能合并属性。
+
+**不推荐**
+
+``` javascript
+$first.click(function(){
+    $first.css('border', '1px solid red');
+    $first.css('color', 'blue');
+});
+```
+
+**推荐**
+
+``` javascript
+$first.on('click', function(){
     $first.css({
         'border':'1px solid red',
         'color':'blue'
@@ -118,61 +132,81 @@ $first.on('click',function(){
 });
 ```
 
-### 链式操作 ###
+## 链式操作 ##
 
-jquery 实现方法的链式操作是非常容易的。
+jquery 能够很轻易的实现链式操作。
+
+**不推荐**
 
 ``` javascript
-// 糟糕
 $second.html(value);
 $second.on('click', function(){
-	alert('hello everybody');
+    alert('hello everybody');
 });
 $second.fadeIn('slow');
 $second.animate({height: '120px'}, 500);
+```
 
-// 建议
-$second.html(value);
-$second.on('click', function(){
-	alert('hello everybody');
+**推荐**
+
+``` javascript
+$second.html(value).on('click', function(){
+    alert('hello everybody');
 }).fadeIn('slow').animate({height: '120px'}, 500);
 ```
 
-### 维持代码的可读性 ###
+## 维持代码的可读性 ##
 
-伴随着精简代码和使用链式的同时，可能带来代码的难以阅读。添加缩紧和换行能起到很好的效果。
+伴随着精简代码和使用链式的同时，可能带来代码的难以阅读。添加缩进和换行能起到很好的效果。
 
-``` javascript
-// 糟糕
-$second.html(value);
-$second.on('click',function(){
-	alert('hello everybody');
-}).fadeIn('slow').animate({height:'120px'},500);
-
-// 建议
-$second.html(value);
-$second.on('click',function(){ alert('hello everybody');})
-	   .fadeIn('slow')
-	   .animate({height:'120px'},500);
-```
-
-### 选择短路求值 ###
-
-短路求值是一个从左到右求值的表达式，用 `&&`（逻辑与）或 `||`（逻辑或）操作符。
+**不推荐**
 
 ``` javascript
-// 糟糕
-function initVar($myVar) {
-	if(!$myVar) {
-		$myVar = $('#selector');
-	}
-}
+$second.html(value).on('click', function(){
+    alert('hello everybody');
+}).fadeIn('slow').animate({height: '120px'}, 500);
+```
 
-// 建议
+**推荐**
+
+``` javascript
+$second.html(value)
+    .on('click', function() {
+        alert('hello everybody');
+    })
+    .fadeIn('slow')
+    .animate({
+        height: '120px'
+    }, 500);
+```
+
+## 选择短路求值 ##
+
+短路求值是一个从左到右求值的表达式，用 `&&` 或 `||` 操作符。
+
+**不推荐**
+
+``` javascript
 function initVar($myVar) {
-	$myVar = $myVar || $('#selector');
+    if (!$myVar) {
+        $myVar = $('#selector');
+    }
 }
 ```
+
+**推荐**
+
+``` javascript
+function initVar($myVar) {
+    $myVar = $myVar || $('#selector');
+}
+```
+
+
+
+
+
+
 
 ### 编码捷径 ###
 

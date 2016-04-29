@@ -1,8 +1,8 @@
 title: 前端编码规范——html 规范
 date: 2015-10-12 09:54:21
 categories: 规范
-keywords: 前端,规范,前端规范,html,css,javascript,jquery,注释
-tags: [前端规范,规范,html]
+keywords: 前端, 规范, 前端规范, html, css, javascript, jquery, 注释
+tags: [前端规范, 规范, html]
 description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript，jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。本文为 html 规范。
 ---
 
@@ -142,6 +142,14 @@ html 标签及属性（包括自定义属性）都是小写字母，不要使用
 
 ``` html
 <h1 data-age="20">张三</h1>
+```
+
+## a 标签作为 js 用时 ##
+
+当 `a` 标签有 js 作用时，`href` 值应当为 `javascript:;`。
+
+``` html
+<a href="javascript:;">点击事件</a>
 ```
 
 ## html 引号 ##

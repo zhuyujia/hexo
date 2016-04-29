@@ -1,12 +1,12 @@
 title: javascript 变量命名规则
 date: 2015-10-14 11:19:29
 categories: 规范
-keywords: 前端,规范,前端规范,javascript,jquery,变量命名,匈牙利命名,驼峰式命名,帕斯卡命名
-tags: [前端规范,规范,javascript,变量命名]
-description: javascript 有三大经典的变量命名法：匈牙利命名法，驼峰式命名法和帕斯卡命名法。今天主要介绍下这三种命名方式。
+keywords: 前端, 规范, 前端规范, javascript, jquery, 变量命名, 匈牙利命名, 驼峰式命名, 帕斯卡命名
+tags: [前端规范, 规范, javascript, 变量命名]
 ---
 
 javascript 有三大经典的变量命名法：匈牙利命名法，驼峰式命名法和帕斯卡命名法。今天主要介绍下这三种命名方式。
+<!--more-->
 
 ## 匈牙利命名法 ##
 
@@ -78,6 +78,6 @@ function TimeCount(){}
 
 ## 参考文献 ##
 
-- [http://www.wangyingran.com/archives/550.html](http://www.wangyingran.com/archives/550.html)
-- [http://www.cnblogs.com/hare/p/3467851.html](http://www.cnblogs.com/hare/p/3467851.html)
-- [http://www.51texiao.cn/javascriptjiaocheng/2015/0721/6961.html](http://www.51texiao.cn/javascriptjiaocheng/2015/0721/6961.html)
+> [http://www.wangyingran.com/archives/550.html](http://www.wangyingran.com/archives/550.html)
+> [http://www.cnblogs.com/hare/p/3467851.html](http://www.cnblogs.com/hare/p/3467851.html)
+> [http://www.51texiao.cn/javascriptjiaocheng/2015/0721/6961.html](http://www.51texiao.cn/javascriptjiaocheng/2015/0721/6961.html)
