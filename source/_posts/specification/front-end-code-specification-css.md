@@ -38,7 +38,7 @@ id 只有在锚点和 js 的情况下才会用到。
 
 ## id 和 class 的分隔符 ##
 
-使用中划线（-）分隔 id 和 class 中的单词。虽然它很不方便的让你双击选择，但是它可以增强理解性。另外属性选择器`[attribute|=value]`也能识别中划线（-），所以最好坚持使用中划线作为分隔符。
+使用中划线（-）分隔 id 和 class 中的单词。虽然它很不方便的让你双击选择，但是它可以增强理解性。另外属性选择器 `[attribute|=value]` 也能识别中划线（-），所以最好坚持使用中划线作为分隔符。
 
 **不推荐**
 
@@ -110,7 +110,7 @@ padding-top: 0;
 **推荐**
 
 ``` css
-border-top: 0;
+border-top: none;
 font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1px 2px;
 ```
@@ -167,13 +167,13 @@ css 中的颜色值可以使用 16 进制来表示，在可能的情况下，可
 
 ## 引号 ##
 
-属性选择器或属性值用双引号（""），而不是单引号（''）括起来。url 的值不要使用引号。
+属性选择器或属性值用双引号（`""`），而不是单引号（`''`）括起来。url 的值不要使用引号。
 
 **不推荐**
 
 ``` css
 @import url('//cdn.com/foundation.css');
-html {
+input[type='submit'] {
     font-family: 'open sans', arial, sans-serif;
 }
 body:after {
@@ -185,7 +185,7 @@ body:after {
 
 ``` css
 @import url(//cdn.com/foundation.css);
-html {
+input[type="submit"] {
     font-family: "open sans", arial, sans-serif;
 }
 body:after {

@@ -1,16 +1,14 @@
 title: 前端编码规范——javascript 规范
 date: 2015-10-12 11:16:48
 categories: 规范
-keywords: 前端,规范,前端规范,html,css,javascript,jquery,注释
-description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript 和 jquery 这几个部分。本文为 javascript 规范。
-tags: [前端规范,规范,javascript]
+keywords: 前端, 规范, 前端规范, html, css, javascript, jquery, 注释
+tags: [前端规范, 规范, javascript]
+description: 这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript，jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。本文为 javascript 规范。
 ---
 
 ## 前言 ##
 
-这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript 和 jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。
-
-## javascript 规范 ##
+这是一份旨在增强团队的开发协作，提高代码质量和打造开发基石的编码风格规范，其中包含了 html，css，javascript，jquery 这几个部分。我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。本文为 javascript 规范。
 
 ### 全局命名空间污染与 IIFE ###
 
@@ -725,14 +723,19 @@ if(x === 10) {
 return x === 10 ? 'valid' : 'invalid';
 ```
 
+
+
+
 ## 系列文章 ##
 
-- [前端编码规范——一般规范](/2015/10/front-end-code-specification-general.html)
-- [前端编码规范——html 规范](/2015/10/front-end-code-specification-html.html)
-- [前端编码规范——css 规范](/2015/10/front-end-code-specification-css.html)
-- [前端编码规范——javascript 规范](/2015/10/front-end-code-specification-javascript.html)
-- [前端编码规范——jquery 规范](/2015/10/front-end-code-specification-jquery.html)
-- [前端编码规范——注释规范](/2015/10/front-end-code-specification-comment.html)
+- [前端编码规范——一般规范](/specification/front-end-code-specification-general.html)
+- [前端编码规范——html 规范](/specification/front-end-code-specification-html.html)
+- [前端编码规范——css 规范](/specification/front-end-code-specification-css.html)
+- [前端编码规范——javascript 规范](/specification/front-end-code-specification-javascript.html)
+- [前端编码规范——jquery 规范](/specification/front-end-code-specification-jquery.html)
+- [前端编码规范——注释规范](/specification/front-end-code-specification-comment.html)
 
-> 原文：[Web Styleguide - Style guide to harmonize HTML, Javascript and CSS / Sass coding style](https://github.com/gionkunz/chartist-js/blob/develop/CODINGSTYLE.md)  
-> 本文转载自：[http://www.css88.com/archives/5366](http://www.css88.com/archives/5366)，略有修改。
+## 参考文献 ##
+
+> [Web Styleguide - Style guide to harmonize HTML, Javascript and CSS / Sass coding style](https://github.com/gionkunz/chartist-js/blob/develop/CODINGSTYLE.md)
+> [http://www.css88.com/archives/5366](http://www.css88.com/archives/5366)
