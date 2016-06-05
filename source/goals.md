@@ -16,6 +16,6 @@ description: 2016年目标
 
 ## 前端框架 ##
 
-- [Bootstrap 学习](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)（*希望在5月份搞定*）
+- [Bootstrap 学习](http://www.bootcss.com/)（*30%*）
 - [AngularJS 学习](http://www.runoob.com/angularjs/angularjs-tutorial.html)（*尚未开始*）
 - [RequireJS 学习](http://www.requirejs.cn/)（*尚未开始*）

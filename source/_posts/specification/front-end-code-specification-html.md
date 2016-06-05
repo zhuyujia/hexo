@@ -8,87 +8,71 @@ description: 这是一份旨在增强团队的开发协作，提高代码质量�
 
 ## 文档类型 ##
 
-推荐使用 HTML5 的文档类型申明：
+推荐使用 html5 的文档类型申明：
 
 ``` html
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="renderer" content="webkit"/>
-    <title>Document</title>
-</head>
-<body>
-</body>
-</html>
+<!DOCTYPE html>
 ```
 
-## html 验证 ##
+## 语言属性 ##
 
-一般情况下，建议使用能通过标准规范验证的 html 代码，除非在性能优化和控制文件大小上不得不做出让步。
+根据 html5 规范：
 
-使用诸如 W3C HTML validator 这样的工具来进行检测。
+> 强烈建议为 `html` 根元素指定 `lang` 属性，从而为文档设置正确的语言。这将有助于语音合成工具确定其所应该采用的发音，有助于翻译工具确定其翻译时所应遵守的规则等等。
 
-规范化的 html 是显现技术要求与局限的显著质量基线，它促进了 html 被更好地运用。
+这里列出了[语言代码表](https://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/)。
+
+``` html
+<html lang="en"></html>
+```
+
+## IE 兼容模式 ##
+
+IE 支持通过特定的 `meta` 标签来确定绘制当前页面所应该采用的 IE 版本。除非有强烈的特殊需求，否则最好是设置为 **edge mode**，从而通知 IE 采用其所支持的最新的模式。
+
+``` html
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+```
+
+## 省略自闭合元素的斜线 ##
+
+不要在自闭合（self-closing）元素的尾部添加斜线 -- [html5 规范](https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag)中明确说明这是可选的。
 
 **不推荐**
 
 ``` html
-<title>Test</title>
-<article>This is only a test.
+<input type="text"/>
 ```
 
 **推荐**
 
 ``` html
-<title>Test</title>
-<article>This is only a test.</article>
+<input type="text">
 ```
 
-## 省略可选标签 ##
+## 不要省略结束标签 ##
 
-html5 规范中规定了 html 标签是可以省略的，比如 `<br>`、`<input type="text">` 等等。
-
-## 脚本加载 ##
-
-脚本应该放在 `html` 标签后面加载。一段脚本放置在 `head` 内，比如 `<script src="main.js"></script>`，其加载会一直阻塞 DOM 解析，直至它完全地加载和执行完毕。这会造成页面显示的延迟。特别是一些重量级的脚本，对用户体验来说那真是一个巨大的影响。
+不要省略可选的结束标签（closing tag）。
 
 **不推荐**
 
 ``` html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <title>Document</title>
-    <script src="main.js"></script>
-</head>
-<body>
-    
-</body>
-</html>
+<ul>
+    <li>
+</ul>
 ```
 
 **推荐**
 
 ``` html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-<script src="main.js"></script>
+<ul>
+    <li></li>
+</ul>
 ```
+
+## 省略 type 属性 ##
+
+省略 css 与 js 的 `type` 属性。鉴于 html5 中以上两者默认的 `type` 值就是 `text/css` 和 `text/javascript`，所以 `type` 属性一般是可以忽略掉的，甚至在老旧版本的浏览器中这么做也是安全可靠的。
 
 ## 语义化 ##
 
@@ -113,9 +97,27 @@ html5 规范中规定了 html 标签是可以省略的，比如 `<br>`、`<input
 <script src="main.js"></script>
 ```
 
+## 实用为王 ##
+
+尽量遵循 html 标准和语义，但是不要以牺牲实用性为代价。任何时候都要尽量使用最少的标签并保持最小的复杂度。
+
+**不推荐**
+
+``` html
+<span class="avatar">
+    <img src="avatar.jpg">
+</span>
+```
+
+**推荐**
+
+``` html
+<img class="avatar" src="avatar.jpg">
+```
+
 ## 结构，表现与行为分离 ##
 
-一个完整的页面分为三个部分：结构（html）、表现（css）和行为（javascript）。为了使它们成为可维护的干净整洁的代码，我们要尽可能的将它们分离开来。
+一个完整的页面分为三个部分：结构（html）、表现（css）和行为（js）。为了使它们成为可维护的干净整洁的代码，我们要尽可能的将它们分离开来。
 
 严格地保证结构、表现、行为三者分离，并尽量使三者之间没有太多的交互和联系。就是说，尽量在文档和模板中只包含结构性的 html；而将所有表现代码，移入样式表中；将所有动作行为，移入脚本之中。在此之外，为使得它们之间的联系尽可能的小，在文档和模板中也尽量少地引入样式和脚本文件。
 
@@ -127,10 +129,6 @@ html5 规范中规定了 html 标签是可以省略的，比如 `<br>`、`<input
 - 不使用行内样式（`<hr style="border-top: 5px solid black">`）
 - 不使用内嵌脚本（`<script>alert('no good')</script>`）
 - 不使用表现元素（`<b>`，`<u>`，`<center>`，`<font>`）
-
-## 省略 type 属性 ##
-
-省略样式表与脚本上的 `type` 属性。鉴于 html5 中以上两者默认的 `type` 值就是 `text/css` 和 `text/javascript`，所以 `type` 属性一般是可以忽略掉的。甚至在老旧版本的浏览器中这么做也是安全可靠的。
 
 ## 小写 ##
 
@@ -144,12 +142,17 @@ html 标签及属性（包括自定义属性）都是小写字母，不要使用
 <h1 data-age="20">张三</h1>
 ```
 
-## a 标签作为 js 用时 ##
+## 布尔型属性 ##
 
-当 `a` 标签有 js 作用时，`href` 值应当为 `javascript:;`。
+布尔型属性可以在声明时不赋值。xhtml 规范要求为其赋值，但是 html5 规范不需要。
 
 ``` html
-<a href="javascript:;">点击事件</a>
+<input type="text" disabled>
+<input type="checkbox" value="1" checked>
+<select>
+    <option value="1" selected>1</option>
+    <option value="2"></option>
+</select>
 ```
 
 ## html 引号 ##
