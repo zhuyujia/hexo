@@ -38,18 +38,29 @@ my-file.min.css
 
 ## 结构目录 ##
 
-- css
-	- style.css（单页面就 style.css）
-	- index.css（多页面进行分类，如：首页 index.css 内页 style.css）
 - images
-	- index（多页面，首页的图片放在 index 文件夹下）
-		- body_bg.jpg
-		- header_bg.jpg
-		- main_bg.jpg
-	- body_bg.jpg
-	- header_bg.jpg
-	- main_bg.jpg
+	- index（多页面的话可以分文件夹）
+		- body-bg.jpg
+		- header-bg.jpg
+		- main-bg.jpg
+	- body-bg.jpg
+	- header-bg.jpg
+	- main-bg.jpg
 - js
+	- common.js
+- lib
+	- jquery.min.js
+- sass
+	- core
+		- _common.scss
+		- _css3.scss
+		- _reset.scss
+		- _variables.scss
+	- _base.scss
+	- _common.scss
+	- _vars.scss
+	- _index.scss
+	- style.scss
 - index.html
 
 ## 编码格式 ##
