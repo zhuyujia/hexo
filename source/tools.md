@@ -38,6 +38,13 @@ description: 罗列平时用到的一些前端工具。
 - [Sprite Cow](http://www.spritecow.com/)
 - [智图](http://zhitu.isux.us/)
 
+## 占位图片服务 ##
+
+- [Placehold.it](http://placehold.it/)
+- [Dynamic Dummy Image Generator](http://dummyimage.com/)
+- [FPOImg.com](http://fpoimg.com/)
+- [nosrc.net](http://nosrc.net/)
+
 ## 构建工具 ##
 
 - [Gulp](http://www.gulpjs.com.cn/)
