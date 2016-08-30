@@ -5,6 +5,10 @@ keywords: javascript, console
 tags: [javascript, console]
 ---
 
+浏览器的控制台（console）是最重要的面板，主要作用是显示网页加载过程中产生各类信息。
+
+<!--more-->
+
 ## 显示信息 ##
 
 ``` javascript
@@ -16,8 +20,6 @@ console.warn('警告');
 ```
 
 最常用的就是 `console.log` 了。
-
-<!--more-->
 
 ## 占位符 ##
 
