@@ -31,17 +31,17 @@ description: 这是我的个人简历。
 
 ## 智阳网络技术（上海）有限公司（2016年2月 ~ 至今） ##
 
-**[智阳网络-安心小保](https://github.com/zhuyujia/ezy-hro-sss)**
-
-安心小保是一款管理社保及公积金的 app 应用，可以帮助企业方便快捷的帮助员工缴纳社保和公积金，该产品包括了以下几大功能：在线充值（包括支付和提现）、方便快速的修改参保人社保和公积金的缴纳基数以及提供缴费记录查询。
-
-安心小保是基于 [hotcss](https://github.com/imochen/hotcss)，结合 [zepto](http://zeptojs.com/)、[TouchSlide](http://www.superslide2.com/TouchSlide/) 和 [layer mobile](http://layer.layui.com/mobile/) 开发的 H5 手机页面。
-
 **[智阳网络-IM（web版）](https://github.com/zhuyujia/ezy-web-im)**
 
 智阳网络-IM（web版）是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊、建群拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能嵌套第三方平台应用。
 
 智阳 IM web 版是基于[网易云信](http://netease.im/)，结合[SuperSlide](http://www.superslide2.com/index.html)、[jeegoocontext](http://www.tweego.nl/jeegoocontext) 和 [perfect-scrollbar](http://noraesae.github.io/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
+
+**[智阳网络-安心小保](https://github.com/zhuyujia/ezy-hro-sss)**
+
+安心小保是一款管理社保及公积金的 app 应用，可以帮助企业方便快捷的帮助员工缴纳社保和公积金，该产品包括了以下几大功能：在线充值（包括支付和提现）、方便快速的修改参保人社保和公积金的缴纳基数以及提供缴费记录查询。
+
+安心小保是基于 [hotcss](https://github.com/imochen/hotcss)，结合 [zepto](http://zeptojs.com/)、[TouchSlide](http://www.superslide2.com/TouchSlide/) 和 [layer mobile](http://layer.layui.com/mobile/) 开发的 H5 手机页面。
 
 ## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月） ##
 
