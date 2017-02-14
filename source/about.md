@@ -37,10 +37,7 @@ description: 这是我的个人简历。
 
 安心小保是基于 [hotcss](https://github.com/imochen/hotcss)，结合 [zepto](http://zeptojs.com/)、[TouchSlide](http://www.superslide2.com/TouchSlide/) 和 [layer mobile](http://layer.layui.com/mobile/) 开发的 H5 手机页面。
 
-**[智阳IM](https://github.com/zhuyujia/ezy-web-im)**
-
-智阳网络-IM（web版）
-=====================
+**[智阳网络-IM（web版）](https://github.com/zhuyujia/ezy-web-im)**
 
 智阳网络-IM（web版）是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊、建群拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能嵌套第三方平台应用。
 
