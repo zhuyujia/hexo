@@ -33,9 +33,9 @@ description: 这是我的个人简历。
 
 **[智阳网络-IM（web版）](https://github.com/zhuyujia/ezy-web-im)**
 
-智阳网络-IM（web版）是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊、建群拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能嵌套第三方平台应用。
+[智阳网络-IM（web版）](http://bakimclient.hrofirst.com/im/index?userId=11&systemId=2)是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊、建群拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能嵌套第三方平台应用。
 
-智阳 IM web 版是基于[网易云信](http://netease.im/)，结合[SuperSlide](http://www.superslide2.com/index.html)、[jeegoocontext](http://www.tweego.nl/jeegoocontext) 和 [perfect-scrollbar](http://noraesae.github.io/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
+[智阳网络-IM（web版）](http://bakimclient.hrofirst.com/im/index?userId=11&systemId=2)是基于[网易云信](http://netease.im/)，结合[SuperSlide](http://www.superslide2.com/index.html)、[jeegoocontext](http://www.tweego.nl/jeegoocontext) 和 [perfect-scrollbar](http://noraesae.github.io/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
 
 **[智阳网络-安心小保](https://github.com/zhuyujia/ezy-hro-sss)**
 
