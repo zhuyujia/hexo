@@ -39,9 +39,12 @@ description: 这是我的个人简历。
 
 **[智阳IM](https://github.com/zhuyujia/ezy-web-im)**
 
-智阳 IM web 版是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊以及预约会议，添加好友、建群组拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能展示公司的组织架构，无需添加好友，即可在线聊天。
+智阳网络-IM（web版）
+=====================
 
-智阳 IM web 版是基于[融云 web sdk2.0](http://www.rongcloud.cn/docs/web.html)，结合[融云表情库](http://cdn.ronghub.com/RongEmoji-2.0.3.min.js)、[jeegoocontext](http://www.tweego.nl/jeegoocontext)、[fancybox](http://fancyapps.com/fancybox/)、[dmuploader](https://github.com/danielm/uploader/) 和 [perfect-scrollbar](http://plugins.jquery.com/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
+智阳网络-IM（web版）是一款即时通讯应用，该应用功能丰富，可以进行单聊、群聊、建群拉人进群，支持发送图片（jpg、png、gif 等等）和文件（zip、txt、doc、excel 等等），同时还能嵌套第三方平台应用。
+
+智阳 IM web 版是基于[网易云信](http://netease.im/)，结合[SuperSlide](http://www.superslide2.com/index.html)、[jeegoocontext](http://www.tweego.nl/jeegoocontext) 和 [perfect-scrollbar](http://noraesae.github.io/perfect-scrollbar/) 开发的网页即时通讯聊天应用。
 
 ## 上海绿岸网络科技股份有限公司（2010年11月 ~ 2016年1月） ##
 
